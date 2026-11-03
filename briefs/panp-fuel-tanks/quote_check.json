@@ -1,11 +1,121 @@
 [
  {
+  "quote": "ET022-270285 Fuel Storage Tank System Replacement - Prince A",
+  "doc": "Notice",
+  "page": 1,
+  "matched": true,
+  "fact": "B1.title",
+  "full_quote": "ET022-270285 Fuel Storage Tank System Replacement - Prince Albert National Park",
+  "kind": "document_page",
+  "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+  "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3"
+ },
+ {
+  "quote": "WS5910624718-Doc5942351061",
+  "doc": "Notice",
+  "page": 1,
+  "matched": true,
+  "fact": "B1.project_no",
+  "full_quote": "WS5910624718-Doc5942351061",
+  "kind": "document_page",
+  "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+  "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3"
+ },
+ {
+  "quote": "Department of Public Works and Government Services (PSPC)",
+  "doc": "Notice",
+  "page": 1,
+  "matched": true,
+  "fact": "B2.owner",
+  "full_quote": "Department of Public Works and Government Services (PSPC)",
+  "kind": "document_page",
+  "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+  "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3"
+ },
+ {
+  "quote": "maintenance compound of Prince Albert National Park",
+  "doc": "Notice",
+  "page": 1,
+  "matched": true,
+  "fact": "B2.facility",
+  "full_quote": "maintenance compound of Prince Albert National Park",
+  "kind": "document_page",
+  "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+  "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3"
+ },
+ {
+  "quote": "Prince Albert National Park in Saskatchewan",
+  "doc": "Notice",
+  "page": 1,
+  "matched": true,
+  "fact": "B6.site",
+  "full_quote": "Prince Albert National Park in Saskatchewan",
+  "kind": "document_page",
+  "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+  "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3"
+ },
+ {
+  "quote": "decommissioning and replacement of fuel storage tank systems",
+  "doc": "Notice",
+  "page": 1,
+  "matched": true,
+  "fact": "B7.work_type",
+  "full_quote": "decommissioning and replacement of fuel storage tank systems",
+  "kind": "document_page",
+  "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+  "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3"
+ },
+ {
+  "quote": "2026-11-19T14:00:00",
+  "doc": "Notice",
+  "page": 1,
+  "matched": true,
+  "fact": "B12.closing",
+  "full_quote": "2026-11-19T14:00:00",
+  "kind": "document_page",
+  "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+  "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3"
+ },
+ {
+  "quote": "Amendment number: 004",
+  "doc": "Notice",
+  "page": 1,
+  "matched": true,
+  "fact": "B12.addenda",
+  "full_quote": "Amendment number: 004",
+  "kind": "document_page",
+  "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+  "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3"
+ },
+ {
   "quote": "Canada will hold an optional Bidders' conference virtually o",
   "doc": "Notice",
   "page": 1,
   "matched": true,
   "fact": "B12.site_meeting",
   "full_quote": "Canada will hold an optional Bidders' conference virtually on MS Teams on Wednesday, November 4, 2026 from 10:00 AM CDT to 12:00 PM CDT.",
+  "kind": "document_page",
+  "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+  "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3"
+ },
+ {
+  "quote": "Canada will hold an optional Bidders' conference virtually o",
+  "doc": "Notice",
+  "page": 1,
+  "matched": true,
+  "fact": "B12.site_meeting",
+  "full_quote": "Canada will hold an optional Bidders' conference virtually on MS Teams on Wednesday, November 4, 2026 from 10:00 AM CDT to 12:00 PM CDT.",
+  "kind": "document_page",
+  "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+  "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3"
+ },
+ {
+  "quote": "The Contractor must complete the work 35 weeks after award.",
+  "doc": "Notice",
+  "page": 1,
+  "matched": true,
+  "fact": "B12.construction_window",
+  "full_quote": "The Contractor must complete the work 35 weeks after award.",
   "kind": "document_page",
   "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
   "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3"

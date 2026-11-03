@@ -1,0 +1,1661 @@
+{
+ "schema_version": "brief-v1.0",
+ "generator_version": "0.1.0",
+ "generated_at": "2026-11-03T08:16:36-06:00",
+ "org_id": "demo",
+ "org_name": "Demo Electric",
+ "title": "Raw Water Pump House Upgrades",
+ "facts": [
+  {
+   "field": "B1",
+   "key": "B1.title",
+   "title": "Project",
+   "value": "Raw Water Pump House Upgrades",
+   "quotes": [
+    {
+     "text": "Raw Water Pump House Upgrades",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 1,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "8761d0b66e40f1195ecfa4fc182151b15527d62cde9e6a95a1a21c3126f30173",
+      "url": null,
+      "label": "Contract documents · p.1",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Low",
+   "label": "AI-drafted",
+   "as_of": null,
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-read from the quoted page (quote verified). Protected field: confirm it by hand before relying on it.",
+   "data": {
+    "ai_check": "protected_ai"
+   },
+   "missing_note": null
+  },
+  {
+   "field": "B1",
+   "key": "B1.project_no",
+   "title": "Project / tender number",
+   "value": "2021-4675-02",
+   "quotes": [
+    {
+     "text": "2021-4675-02",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 3,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "417b516e2430303d0fa882dfd77aae6daabf23f83c36c6c1697d148d1d3c3c24",
+      "url": null,
+      "label": "Contract documents · p.3",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Low",
+   "label": "AI-drafted",
+   "as_of": null,
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-read from the quoted page (quote verified). Protected field: confirm it by hand before relying on it.",
+   "data": {
+    "ai_check": "protected_ai"
+   },
+   "missing_note": null
+  },
+  {
+   "field": "B1",
+   "key": "B1.solicitation",
+   "title": "Solicitation number",
+   "value": null,
+   "quotes": [],
+   "status": "Unknown",
+   "confidence": null,
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "B1.solicitation",
+   "note": null,
+   "data": {},
+   "missing_note": "No RFB/RFP/RFQ number in the documents or file names read."
+  },
+  {
+   "field": "B2",
+   "key": "B2.owner",
+   "title": "Owner / who you bid to",
+   "value": "Town of Outlook",
+   "quotes": [
+    {
+     "text": "Town of Outlook",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 7,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "b79f0b37647c65a0f37e5d0d43f8e2d308ffa6a37b65b08826eefc655af6ded1",
+      "url": null,
+      "label": "Contract documents · p.7",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Medium",
+   "label": "AI-drafted",
+   "as_of": null,
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-drafted from the quoted page; not yet reviewed.",
+   "data": {
+    "ai_check": "ai_only"
+   },
+   "missing_note": null
+  },
+  {
+   "field": "B2",
+   "key": "B2.facility",
+   "title": "Facility / end user",
+   "value": null,
+   "quotes": [],
+   "status": "Unknown",
+   "confidence": null,
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "B2.facility",
+   "note": null,
+   "data": {},
+   "missing_note": "The documents do not name the facility separately from the owner."
+  },
+  {
+   "field": "B3",
+   "key": "B3.gc",
+   "title": "General contractor",
+   "value": null,
+   "quotes": [],
+   "status": "Unknown",
+   "confidence": null,
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "B3.gc",
+   "note": null,
+   "data": {},
+   "missing_note": "The documents read do not say whether bids go through a GC."
+  },
+  {
+   "field": "B4",
+   "key": "B4.prime_consultant",
+   "title": "Prime consultant",
+   "value": "Associated Engineering (Sask.) Ltd.",
+   "quotes": [
+    {
+     "text": "Associated Engineering (Sask.) Ltd.",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 7,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "b79f0b37647c65a0f37e5d0d43f8e2d308ffa6a37b65b08826eefc655af6ded1",
+      "url": null,
+      "label": "Contract documents · p.7",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Medium",
+   "label": "AI-drafted",
+   "as_of": null,
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-drafted from the quoted page; not yet reviewed.",
+   "data": {
+    "ai_check": "ai_only"
+   },
+   "missing_note": null
+  },
+  {
+   "field": "B4",
+   "key": "B4.title_block",
+   "title": "Other consultants (drawing title blocks)",
+   "value": null,
+   "quotes": [],
+   "status": "Unknown",
+   "confidence": null,
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "B4.title_block",
+   "note": null,
+   "data": {},
+   "missing_note": "No consultant names in the drawing title blocks read."
+  },
+  {
+   "field": "B5",
+   "key": "B5.relationship",
+   "title": "Relationship note",
+   "value": null,
+   "quotes": [],
+   "status": "Unknown",
+   "confidence": null,
+   "label": "User-confirmed",
+   "as_of": null,
+   "rule_id": "b5.subscriber_only",
+   "note": null,
+   "data": {
+    "confirmed_by": "subscriber"
+   },
+   "missing_note": "Only you can write this note. It is private to your company."
+  },
+  {
+   "field": "B6",
+   "key": "B6.site",
+   "title": "Location",
+   "value": null,
+   "quotes": [],
+   "status": "Unknown",
+   "confidence": null,
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "B6.site",
+   "note": null,
+   "data": {},
+   "missing_note": "No project location line in the documents read."
+  },
+  {
+   "field": "B6",
+   "key": "B6.municipality",
+   "title": "Municipality and distance",
+   "value": "Outlook, SK",
+   "quotes": [
+    {
+     "text": "Outlook, SK S0L 2N0",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 7,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "b79f0b37647c65a0f37e5d0d43f8e2d308ffa6a37b65b08826eefc655af6ded1",
+      "url": null,
+      "label": "Contract documents · p.7",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Low",
+   "label": "AI-drafted",
+   "as_of": null,
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-read from the quoted page (quote verified). Protected field: confirm it by hand before relying on it.",
+   "data": {
+    "ai_check": "protected_ai"
+   },
+   "missing_note": null
+  },
+  {
+   "field": "B7",
+   "key": "B7.work_type",
+   "title": "Work type",
+   "value": "Civil, Structural, Mechanical, Electrical, Instrumentation and Controls upgrades",
+   "quotes": [
+    {
+     "text": "Civil, Structural, Mechanical, Electrical, Instrumentation and Controls upgrades at the Town of Outlook Raw Water Pumphouse.",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 7,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "b79f0b37647c65a0f37e5d0d43f8e2d308ffa6a37b65b08826eefc655af6ded1",
+      "url": null,
+      "label": "Contract documents · p.7",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Medium",
+   "label": "AI-drafted",
+   "as_of": null,
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-drafted from the quoted page; not yet reviewed.",
+   "data": {
+    "ai_check": "ai_only"
+   },
+   "missing_note": null
+  },
+  {
+   "field": "B7",
+   "key": "B7.class",
+   "title": "Class of work",
+   "value": null,
+   "quotes": [],
+   "status": "Unknown",
+   "confidence": null,
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "B7.class",
+   "note": null,
+   "data": {},
+   "missing_note": "Owner and site do not indicate a class of work."
+  },
+  {
+   "field": "B7",
+   "key": "B7.scope_items",
+   "title": "Scope items found",
+   "value": "Standby / emergency generator; Automatic transfer switch; Power distribution (switchboard / CDP / panel); Lighting / emergency lighting; PLC / MCC; Instrumentation",
+   "quotes": [
+    {
+     "text": "Standby Power The generator",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 407,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "f0219c426eabd65be5501e6be6e9c2f36a48e8e6f5baed9c870108afcffefe59",
+      "url": null,
+      "label": "Contract documents · p.407",
+      "entered_by": null,
+      "entered_at": null
+     }
+    },
+    {
+     "text": "automatic transfer switch",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 407,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "f0219c426eabd65be5501e6be6e9c2f36a48e8e6f5baed9c870108afcffefe59",
+      "url": null,
+      "label": "Contract documents · p.407",
+      "entered_by": null,
+      "entered_at": null
+     }
+    },
+    {
+     "text": "Panelboard",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 273,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "e1c54430e7ba46c94f508ce0ff8949da9c3d3fa75682e73948cefb057891e75b",
+      "url": null,
+      "label": "Contract documents · p.273",
+      "entered_by": null,
+      "entered_at": null
+     }
+    },
+    {
+     "text": "lighting control",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 138,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "a70b6a46afa7077a313eb3bf64e595c5aa5e0b7e3c4fd0f3fc42d743ea384542",
+      "url": null,
+      "label": "Contract documents · p.138",
+      "entered_by": null,
+      "entered_at": null
+     }
+    },
+    {
+     "text": "PLC",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 140,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "9a1a08ef53533106748698ae200a26be4b561ee110f8730cd23928d38cab9ae5",
+      "url": null,
+      "label": "Contract documents · p.140",
+      "entered_by": null,
+      "entered_at": null
+     }
+    },
+    {
+     "text": "Transmitters",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 4,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "1b1612f827d3a6d87f897a5504057f5386430d4d931c69b2ef0823545e4fe182",
+      "url": null,
+      "label": "Contract documents · p.4",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Medium",
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "b7.capability_keywords",
+   "note": "Keyword rules map each item to a capability ID; one quote per item.",
+   "data": {
+    "items": [
+     "Standby / emergency generator",
+     "Automatic transfer switch",
+     "Power distribution (switchboard / CDP / panel)",
+     "Lighting / emergency lighting",
+     "PLC / MCC",
+     "Instrumentation"
+    ],
+    "capabilities": [
+     "elec.standby-power",
+     "elec.install.commercial",
+     "elec.lighting",
+     "controls.plc.mcc",
+     "instr.install"
+    ]
+   },
+   "missing_note": null
+  },
+  {
+   "field": "B7",
+   "key": "B7.carries_other_trades",
+   "title": "Electrical carries non-electrical work",
+   "value": null,
+   "quotes": [],
+   "status": "Unknown",
+   "confidence": null,
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "B7.carries_other_trades",
+   "note": null,
+   "data": {},
+   "missing_note": "The documents read do not say who carries non-electrical work."
+  },
+  {
+   "field": "B7",
+   "key": "B7.phasing",
+   "title": "Phasing",
+   "value": null,
+   "quotes": [],
+   "status": "Unknown",
+   "confidence": null,
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "B7.phasing",
+   "note": null,
+   "data": {},
+   "missing_note": "No construction phasing found."
+  },
+  {
+   "field": "B8",
+   "key": "B8.value",
+   "title": "Estimated value",
+   "value": null,
+   "quotes": [],
+   "status": "Unknown",
+   "confidence": null,
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "B8.value",
+   "note": null,
+   "data": {},
+   "missing_note": "No budget or estimate is stated in the documents read. Market Scanner shows only stated values until the value-estimation golden set passes (PLAN §6.5, §14)."
+  },
+  {
+   "field": "B8",
+   "key": "B8.other_dollar_figures",
+   "title": "Dollar figures in the documents (not the project value)",
+   "value": "$35,000.00",
+   "quotes": [
+    {
+     "text": "Section 00 41 00 - Bid Form include stipulated sum of $35,000.00 for material testing and asbestos abatement.",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 102,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "25ac7953641ba4d45323c674ceb424740a63d9c6e834390950cab8bfcdd672db",
+      "url": null,
+      "label": "Contract documents · p.102",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Low",
+   "label": "AI-drafted",
+   "as_of": null,
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-read from the quoted page (quote verified). Protected field: confirm it by hand before relying on it.",
+   "data": {
+    "ai_check": "protected_ai"
+   },
+   "missing_note": null
+  },
+  {
+   "field": "B9",
+   "key": "B9.floor_area",
+   "title": "Floor area",
+   "value": null,
+   "quotes": [],
+   "status": "Unknown",
+   "confidence": null,
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "B9.floor_area",
+   "note": null,
+   "data": {},
+   "missing_note": "No floor area is stated in the documents read."
+  },
+  {
+   "field": "B10",
+   "key": "B10.service",
+   "title": "Service voltage",
+   "value": "120/208 V (Contract documents p.290)",
+   "quotes": [
+    {
+     "text": "120/208 V",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 290,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "2735424577f42f51907bfe74ad1f75242046c7e08ecabcce977340fc90089c6e",
+      "url": null,
+      "label": "Contract documents · p.290",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "High",
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "b10.voltage",
+   "note": null,
+   "data": {
+    "voltage": "120/208"
+   },
+   "missing_note": null
+  },
+  {
+   "field": "B10",
+   "key": "B10.wiring",
+   "title": "Cable / wiring method",
+   "value": "All panel wiring is to be #14 AWG type TEW, minimum 19-stranded copper for 15 A protected circuits. All other control and terminal interface wiring are to be #16 AWG TEW and protected at 5 A or less.",
+   "quotes": [
+    {
+     "text": "All panel wiring is to be #14 AWG type TEW, minimum 19-stranded copper for 15 A protected circuits. All other control and terminal interface wiring are to be #16 AWG TEW and protected at 5 A or less.",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 259,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "05a0e4a851937162de8d0891422186ff27aea550846e116ffcabccd8fba087a6",
+      "url": null,
+      "label": "Contract documents · p.259",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Medium",
+   "label": "AI-drafted",
+   "as_of": null,
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-drafted from the quoted page; not yet reviewed.",
+   "data": {
+    "ai_check": "ai_only"
+   },
+   "missing_note": null
+  },
+  {
+   "field": "B10",
+   "key": "B10.fire_alarm",
+   "title": "Fire alarm",
+   "value": null,
+   "quotes": [],
+   "status": "Unknown",
+   "confidence": null,
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "B10.fire_alarm",
+   "note": null,
+   "data": {},
+   "missing_note": "No fire alarm section found."
+  },
+  {
+   "field": "B10",
+   "key": "B10.testing",
+   "title": "Testing, studies and commissioning",
+   "value": "Commissioning program requirements include pre-start-up, start-up, functional performance testing (FPT), and system verification.",
+   "quotes": [
+    {
+     "text": "Commissioning (Cx): the process of planning, documenting, verifying, and training, to provide a facility that operates as a fully functional system in accordance with the Contract Documents.",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 133,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "6d000f387b9871091094837d37ffd09fb90f55d0afbc573133e2704af1c7de5f",
+      "url": null,
+      "label": "Contract documents · p.133",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Medium",
+   "label": "AI-drafted",
+   "as_of": null,
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-drafted from the quoted page; not yet reviewed.",
+   "data": {
+    "ai_check": "ai_only"
+   },
+   "missing_note": null
+  },
+  {
+   "field": "B10",
+   "key": "B10.controls",
+   "title": "PLC / SCADA / BMS",
+   "value": "PLC/SCADA mentioned (Contract documents p.140).",
+   "quotes": [
+    {
+     "text": "The PLC shall be in Program mode.",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 140,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "9a1a08ef53533106748698ae200a26be4b561ee110f8730cd23928d38cab9ae5",
+      "url": null,
+      "label": "Contract documents · p.140",
+      "entered_by": null,
+      "entered_at": null
+     }
+    },
+    {
+     "text": "PLC, SCADA, and HMI programming to be completed by ATAP Infrastructure Management.",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 253,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "60ef88aa78d687d70f1eaf0a8c5ca03c7cab27ff797b7b62ba1e772e17800268",
+      "url": null,
+      "label": "Contract documents · p.253",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Conflicted",
+   "confidence": "Low",
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "b10.controls",
+   "note": "AI read this differently: “PLC, SCADA, and HMI programming to be completed by ATAP Infrastructure Management.” (Contract documents · p.253). Check both quotes.",
+   "data": {
+    "ai_check": "disagrees",
+    "ai_value": "PLC, SCADA, and HMI programming to be completed by ATAP Infrastructure Management."
+   },
+   "missing_note": null
+  },
+  {
+   "field": "B11",
+   "key": "B11.generator",
+   "title": "Generator",
+   "value": null,
+   "quotes": [],
+   "status": "Unknown",
+   "confidence": null,
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "B11.generator",
+   "note": null,
+   "data": {},
+   "missing_note": "No generator rating found."
+  },
+  {
+   "field": "B11",
+   "key": "B11.transfer_switch",
+   "title": "Transfer switch",
+   "value": null,
+   "quotes": [],
+   "status": "Unknown",
+   "confidence": null,
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "B11.transfer_switch",
+   "note": null,
+   "data": {},
+   "missing_note": "No transfer switch found."
+  },
+  {
+   "field": "B11",
+   "key": "B11.distribution",
+   "title": "Distribution",
+   "value": null,
+   "quotes": [],
+   "status": "Unknown",
+   "confidence": null,
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "B11.distribution",
+   "note": null,
+   "data": {},
+   "missing_note": "No new distribution equipment found."
+  },
+  {
+   "field": "B11",
+   "key": "B11.feeders",
+   "title": "Main feeders",
+   "value": null,
+   "quotes": [],
+   "status": "Unknown",
+   "confidence": null,
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "B11.feeders",
+   "note": null,
+   "data": {},
+   "missing_note": "No feeder schedule found."
+  },
+  {
+   "field": "B11",
+   "key": "B11.approved_manufacturers",
+   "title": "Approved manufacturers",
+   "value": "Oxford® Catalog Binder, Van Bind Canada Expandable Binder, or Barlock expandable binders by Vancouver Bookbinding Ltd.",
+   "quotes": [
+    {
+     "text": "The binders are to be Oxford® Catalog Binder with Expanding Posts, Model: OXFC619-3, or Van Bind Canada Expandable Binder, or Barlock expandable binders by Vancouver Bookbinding Ltd. (604) 872-8132 or 1-800-670-2463 or approved alternative.",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 143,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "80a791e3380795e28b36481d347a0e07041f0f2b2637b448c45f57432fda2557",
+      "url": null,
+      "label": "Contract documents · p.143",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Low",
+   "label": "AI-drafted",
+   "as_of": null,
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-read from the quoted page (quote verified). Protected field: confirm it by hand before relying on it.",
+   "data": {
+    "ai_check": "protected_ai"
+   },
+   "missing_note": null
+  },
+  {
+   "field": "B11",
+   "key": "B11.alternates",
+   "title": "Alternate prices",
+   "value": null,
+   "quotes": [],
+   "status": "Unknown",
+   "confidence": null,
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "B11.alternates",
+   "note": null,
+   "data": {},
+   "missing_note": "No alternate prices found."
+  },
+  {
+   "field": "B12",
+   "key": "B12.closing",
+   "title": "Closing date / time",
+   "value": "September 10, 2026 at 2:00 p.m.",
+   "quotes": [
+    {
+     "text": "up to 2:00 p.m. local time on September 10, 2026.",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 7,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "b79f0b37647c65a0f37e5d0d43f8e2d308ffa6a37b65b08826eefc655af6ded1",
+      "url": null,
+      "label": "Contract documents · p.7",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Low",
+   "label": "AI-drafted",
+   "as_of": null,
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-read from the quoted page (quote verified). Protected field: confirm it by hand before relying on it.",
+   "data": {
+    "ai_check": "protected_ai"
+   },
+   "missing_note": null
+  },
+  {
+   "field": "B12",
+   "key": "B12.closing_reference",
+   "title": "Where the documents put the deadline",
+   "value": null,
+   "quotes": [],
+   "status": "Unknown",
+   "confidence": null,
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "B12.closing_reference",
+   "note": null,
+   "data": {},
+   "missing_note": "The documents read do not say where the deadline is set."
+  },
+  {
+   "field": "B12",
+   "key": "B12.issued",
+   "title": "Issued for tender",
+   "value": null,
+   "quotes": [],
+   "status": "Unknown",
+   "confidence": null,
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "B12.issued",
+   "note": null,
+   "data": {},
+   "missing_note": "No 'issued for tender' revision found."
+  },
+  {
+   "field": "B12",
+   "key": "B12.addenda",
+   "title": "Addenda",
+   "value": null,
+   "quotes": [],
+   "status": "Unknown",
+   "confidence": null,
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "B12.addenda",
+   "note": null,
+   "data": {},
+   "missing_note": "No addenda in the files read."
+  },
+  {
+   "field": "B12",
+   "key": "B12.site_meeting",
+   "title": "Site meeting",
+   "value": "A site meeting is mentioned; date not stated; mandatory or optional: not stated.",
+   "quotes": [
+    {
+     "text": ".6 A site visit for confirmation of the concrete preparation shall be carried out by the Engineer prior to the start of repair work.",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 172,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "df81c6c150c59fabc72682fb3d17d89b96d049bf090364381cab9496f10b26e9",
+      "url": null,
+      "label": "Contract documents · p.172",
+      "entered_by": null,
+      "entered_at": null
+     }
+    },
+    {
+     "text": "The Contractor shall provide a window of one week and proper access to allow the Engineer to perform this inspection: .1 Sample area: A site visit for confirmation of the sample repair area preparation shall be carried out by the Engineer prior to the start of the repair work.",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 172,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "df81c6c150c59fabc72682fb3d17d89b96d049bf090364381cab9496f10b26e9",
+      "url": null,
+      "label": "Contract documents · p.172",
+      "entered_by": null,
+      "entered_at": null
+     }
+    },
+    {
+     "text": "A bidders’ briefing is scheduled for August 26, 2026 at 2:00 p.m.",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 7,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "b79f0b37647c65a0f37e5d0d43f8e2d308ffa6a37b65b08826eefc655af6ded1",
+      "url": null,
+      "label": "Contract documents · p.7",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Conflicted",
+   "confidence": "Low",
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "b12.site_meeting",
+   "note": "AI read this differently: “August 26, 2026 at 2:00 p.m.” (Contract documents · p.7). Check both quotes.",
+   "data": {
+    "mandatory": null,
+    "held": false,
+    "ai_check": "disagrees",
+    "ai_value": "August 26, 2026 at 2:00 p.m."
+   },
+   "missing_note": null
+  },
+  {
+   "field": "B12",
+   "key": "B12.substitutions",
+   "title": "Deadline for equals / substitutions",
+   "value": null,
+   "quotes": [],
+   "status": "Unknown",
+   "confidence": null,
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "B12.substitutions",
+   "note": null,
+   "data": {},
+   "missing_note": "No substitution deadline found."
+  },
+  {
+   "field": "B12",
+   "key": "B12.addenda_cutoff",
+   "title": "Last day for addenda",
+   "value": "5 Business Days before Bid Closing Time",
+   "quotes": [
+    {
+     "text": "Clarifications requested by Bidders must be in writing not less than 5 Business Days before Bid Closing Time.",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 9,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "9f322b264dae26abc56b965916e08ce09a4a015a2c579aba7eb842724a1245e6",
+      "url": null,
+      "label": "Contract documents · p.9",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Low",
+   "label": "AI-drafted",
+   "as_of": null,
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-read from the quoted page (quote verified). Protected field: confirm it by hand before relying on it.",
+   "data": {
+    "ai_check": "protected_ai"
+   },
+   "missing_note": null
+  },
+  {
+   "field": "B12",
+   "key": "B12.construction_window",
+   "title": "Construction window",
+   "value": null,
+   "quotes": [],
+   "status": "Unknown",
+   "confidence": null,
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "B12.construction_window",
+   "note": null,
+   "data": {},
+   "missing_note": "No construction start or completion found."
+  },
+  {
+   "field": "B13",
+   "key": "B13.validity",
+   "title": "Bid validity",
+   "value": "60-days",
+   "quotes": [
+    {
+     "text": "Bids shall remain open to acceptance and shall be irrevocable for a period of 60-days after the bid closing date.",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 13,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "3d9a6bd92d769f6e010c80ab02587cc8fff2dcef4e02252451153850a605c7a1",
+      "url": null,
+      "label": "Contract documents · p.13",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Low",
+   "label": "AI-drafted",
+   "as_of": null,
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-read from the quoted page (quote verified). Protected field: confirm it by hand before relying on it.",
+   "data": {
+    "ai_check": "protected_ai"
+   },
+   "missing_note": null
+  },
+  {
+   "field": "B13",
+   "key": "B13.bid_bond",
+   "title": "Bid bond",
+   "value": "10 percent of the Total Bid",
+   "quotes": [
+    {
+     "text": "Bids shall be accompanied by a Bid Bond in an amount not less than 10 percent of the Total Bid.",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 11,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "61cf9b15361f7b40b07d77a852714f7de6e108957b8949a6deaf4659d74af3da",
+      "url": null,
+      "label": "Contract documents · p.11",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Low",
+   "label": "AI-drafted",
+   "as_of": null,
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-read from the quoted page (quote verified). Protected field: confirm it by hand before relying on it.",
+   "data": {
+    "ai_check": "protected_ai"
+   },
+   "missing_note": null
+  },
+  {
+   "field": "B13",
+   "key": "B13.bonding",
+   "title": "Agreement to bond / performance bonds",
+   "value": "50% of the total bid",
+   "quotes": [
+    {
+     "text": "Performance Bond and Labour and Material Payment Bond each in the amount of 50% of the total bid",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 21,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "06b1046ade58ebf1b644caff916911c1c371634b661dcc85321d990bdee8efb9",
+      "url": null,
+      "label": "Contract documents · p.21",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Low",
+   "label": "AI-drafted",
+   "as_of": null,
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-read from the quoted page (quote verified). Protected field: confirm it by hand before relying on it.",
+   "data": {
+    "ai_check": "protected_ai"
+   },
+   "missing_note": null
+  },
+  {
+   "field": "B13",
+   "key": "B13.insurance",
+   "title": "Insurance",
+   "value": "$5,000,000.00",
+   "quotes": [
+    {
+     "text": "Commercial General Liability Insurance, in a form acceptable to Owner, with limits of not less than $5,000,000.00 inclusive per occurrence for bodily injury, death and damage to property, including loss of use thereof.",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 98,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "33906ebd459b62ac2511f9c5ec3f924427ceaa5bc7487b38a73780c546d43fa5",
+      "url": null,
+      "label": "Contract documents · p.98",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Low",
+   "label": "AI-drafted",
+   "as_of": null,
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-read from the quoted page (quote verified). Protected field: confirm it by hand before relying on it.",
+   "data": {
+    "ai_check": "protected_ai"
+   },
+   "missing_note": null
+  },
+  {
+   "field": "B13",
+   "key": "B13.safety",
+   "title": "Safety certification",
+   "value": null,
+   "quotes": [],
+   "status": "Unknown",
+   "confidence": null,
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "B13.safety",
+   "note": null,
+   "data": {},
+   "missing_note": "No safety certification required."
+  },
+  {
+   "field": "B13",
+   "key": "B13.submittals",
+   "title": "Required with the bid",
+   "value": null,
+   "quotes": [],
+   "status": "Unknown",
+   "confidence": null,
+   "label": "Rule-checked",
+   "as_of": null,
+   "rule_id": "B13.submittals",
+   "note": null,
+   "data": {},
+   "missing_note": "No bid submittals listed."
+  },
+  {
+   "field": "B13",
+   "key": "B13.taxes",
+   "title": "Taxes",
+   "value": "exclusive only of GST and PST payable by Owner",
+   "quotes": [
+    {
+     "text": "Total Bid shall represent the entire cost to Owner for the completed works as specified and shown on the drawings, exclusive only of GST and PST payable by Owner.",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "CD",
+      "page": 12,
+      "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+      "page_sha256": "afee185dbcdda47f7bbdf4e0ce5bd8ee9bf557153f9852d903899c74a1d900c7",
+      "url": null,
+      "label": "Contract documents · p.12",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Low",
+   "label": "AI-drafted",
+   "as_of": null,
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-read from the quoted page (quote verified). Protected field: confirm it by hand before relying on it.",
+   "data": {
+    "ai_check": "protected_ai"
+   },
+   "missing_note": null
+  }
+ ],
+ "changes": [],
+ "watched_trades": [
+  "electrical"
+ ],
+ "watched_source": "profile_default",
+ "fit": {
+  "weights_version": "fit-v0.1 (2026-11-02, proposal; locked after the discovery calls, register row 92)",
+  "score": 34,
+  "components": [
+   {
+    "key": "scope",
+    "title": "Scope match",
+    "points": 4.0,
+    "max_points": 40.0,
+    "sign": "−",
+    "why": "0% of the trade pages read are in your divisions (divisions found: Div 20). 1 of 5 scope items match capabilities in your profile (not shown in your profile: elec.standby-power, elec.install.commercial, controls.plc.mcc, instr.install)."
+   },
+   {
+    "key": "location",
+    "title": "Location",
+    "points": 10.0,
+    "max_points": 20.0,
+    "sign": "?",
+    "why": "Site or office location unknown, so this is neutral."
+   },
+   {
+    "key": "specs",
+    "title": "Wiring and equipment specs",
+    "points": 7.5,
+    "max_points": 15.0,
+    "sign": "?",
+    "why": "No wiring or equipment requirements read, so this is neutral."
+   },
+   {
+    "key": "delivery",
+    "title": "How you'd bid",
+    "points": 7.5,
+    "max_points": 15.0,
+    "sign": "?",
+    "why": "How bids are received is not stated, so this is neutral."
+   },
+   {
+    "key": "size",
+    "title": "Project size (soft signal)",
+    "points": 5.0,
+    "max_points": 10.0,
+    "sign": "?",
+    "why": "Unknown: no stated value, so size is neutral (your evidence: $0.25M–$5.00M (sample profile for the demo))."
+   }
+  ],
+  "size_fit": "Unknown: no stated value, so size is neutral (your evidence: $0.25M–$5.00M (sample profile for the demo)).",
+  "eligibility_state": "gaps to confirm",
+  "eligibility_notes": [
+   "Bonding capacity: required; not in your profile yet.",
+   "Surety / agreement to bond: required; not in your profile yet.",
+   "Insurance: required; not in your profile yet."
+  ],
+  "gate_tier": "Not evaluated (Gate v2 port is a P1 deliverable)"
+ },
+ "recommendation": {
+  "verdict": "Likely no-bid",
+  "reasons": [
+   "Most of the work is outside your trades."
+  ],
+  "rule_ids": [
+   "r2.outside_trades"
+  ],
+  "label": "Rule-checked"
+ },
+ "coverage": {
+  "documents": [
+   {
+    "key": "CD",
+    "short": "Contract documents",
+    "file_name": "contract.pdf",
+    "original_name": "cds_Raw_Water_Pump_House_Upgrades.pdf",
+    "sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65",
+    "bytes": 12365286,
+    "pages": 419,
+    "pages_with_text": 418,
+    "pages_without_text": [
+     2
+    ],
+    "kind": "other",
+    "extractor": "poppler-pdftotext-layout (pdftotext version 25.03.0)"
+   }
+  ],
+  "files_read": 1,
+  "folder_files_total": null,
+  "folder_document_files_total": null,
+  "pages_total": 419,
+  "pages_with_text": 418,
+  "notes": [
+   "1 page(s) have no text layer (drawings or scans); OCR is not run, so those pages were not read.",
+   "AI read 234 of 418 pages (pdf) in 6 call(s): 47 quote-checked proposals accepted, 3 rejected (quote not on the cited page); 133,673 tokens, $0.2282 counted against the monthly cap."
+  ],
+  "confidence_cap": null
+ },
+ "closing_at": null,
+ "closed": false,
+ "config_versions": {
+  "trade_sections": "trade-map-v0.1 (2026-11-02, PLAN v0.3.2 §7.6)",
+  "fit_weights": "fit-v0.1 (2026-11-02, proposal; locked after the discovery calls, register row 92)",
+  "sk_places": "sk-places-v0.1 (2026-11-02)",
+  "capabilities": "capability-rules-v0.1 (2026-11-02)"
+ },
+ "quote_check": {
+  "mode": "strict: NFC + whitespace collapsed, case-sensitive substring; page and file sha256 checked",
+  "total": 29,
+  "matched": 29,
+  "hand_entries": 0,
+  "entries": [
+   {
+    "quote": "Raw Water Pump House Upgrades",
+    "doc": "CD",
+    "page": 1,
+    "matched": true,
+    "fact": "B1.title",
+    "full_quote": "Raw Water Pump House Upgrades",
+    "kind": "document_page",
+    "page_sha256": "8761d0b66e40f1195ecfa4fc182151b15527d62cde9e6a95a1a21c3126f30173",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "2021-4675-02",
+    "doc": "CD",
+    "page": 3,
+    "matched": true,
+    "fact": "B1.project_no",
+    "full_quote": "2021-4675-02",
+    "kind": "document_page",
+    "page_sha256": "417b516e2430303d0fa882dfd77aae6daabf23f83c36c6c1697d148d1d3c3c24",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "Town of Outlook",
+    "doc": "CD",
+    "page": 7,
+    "matched": true,
+    "fact": "B2.owner",
+    "full_quote": "Town of Outlook",
+    "kind": "document_page",
+    "page_sha256": "b79f0b37647c65a0f37e5d0d43f8e2d308ffa6a37b65b08826eefc655af6ded1",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "Associated Engineering (Sask.) Ltd.",
+    "doc": "CD",
+    "page": 7,
+    "matched": true,
+    "fact": "B4.prime_consultant",
+    "full_quote": "Associated Engineering (Sask.) Ltd.",
+    "kind": "document_page",
+    "page_sha256": "b79f0b37647c65a0f37e5d0d43f8e2d308ffa6a37b65b08826eefc655af6ded1",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "Outlook, SK S0L 2N0",
+    "doc": "CD",
+    "page": 7,
+    "matched": true,
+    "fact": "B6.municipality",
+    "full_quote": "Outlook, SK S0L 2N0",
+    "kind": "document_page",
+    "page_sha256": "b79f0b37647c65a0f37e5d0d43f8e2d308ffa6a37b65b08826eefc655af6ded1",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "Civil, Structural, Mechanical, Electrical, Instrumentation a",
+    "doc": "CD",
+    "page": 7,
+    "matched": true,
+    "fact": "B7.work_type",
+    "full_quote": "Civil, Structural, Mechanical, Electrical, Instrumentation and Controls upgrades at the Town of Outlook Raw Water Pumphouse.",
+    "kind": "document_page",
+    "page_sha256": "b79f0b37647c65a0f37e5d0d43f8e2d308ffa6a37b65b08826eefc655af6ded1",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "Standby Power The generator",
+    "doc": "CD",
+    "page": 407,
+    "matched": true,
+    "fact": "B7.scope_items",
+    "full_quote": "Standby Power The generator",
+    "kind": "document_page",
+    "page_sha256": "f0219c426eabd65be5501e6be6e9c2f36a48e8e6f5baed9c870108afcffefe59",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "automatic transfer switch",
+    "doc": "CD",
+    "page": 407,
+    "matched": true,
+    "fact": "B7.scope_items",
+    "full_quote": "automatic transfer switch",
+    "kind": "document_page",
+    "page_sha256": "f0219c426eabd65be5501e6be6e9c2f36a48e8e6f5baed9c870108afcffefe59",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "Panelboard",
+    "doc": "CD",
+    "page": 273,
+    "matched": true,
+    "fact": "B7.scope_items",
+    "full_quote": "Panelboard",
+    "kind": "document_page",
+    "page_sha256": "e1c54430e7ba46c94f508ce0ff8949da9c3d3fa75682e73948cefb057891e75b",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "lighting control",
+    "doc": "CD",
+    "page": 138,
+    "matched": true,
+    "fact": "B7.scope_items",
+    "full_quote": "lighting control",
+    "kind": "document_page",
+    "page_sha256": "a70b6a46afa7077a313eb3bf64e595c5aa5e0b7e3c4fd0f3fc42d743ea384542",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "PLC",
+    "doc": "CD",
+    "page": 140,
+    "matched": true,
+    "fact": "B7.scope_items",
+    "full_quote": "PLC",
+    "kind": "document_page",
+    "page_sha256": "9a1a08ef53533106748698ae200a26be4b561ee110f8730cd23928d38cab9ae5",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "Transmitters",
+    "doc": "CD",
+    "page": 4,
+    "matched": true,
+    "fact": "B7.scope_items",
+    "full_quote": "Transmitters",
+    "kind": "document_page",
+    "page_sha256": "1b1612f827d3a6d87f897a5504057f5386430d4d931c69b2ef0823545e4fe182",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "Section 00 41 00 - Bid Form include stipulated sum of $35,00",
+    "doc": "CD",
+    "page": 102,
+    "matched": true,
+    "fact": "B8.other_dollar_figures",
+    "full_quote": "Section 00 41 00 - Bid Form include stipulated sum of $35,000.00 for material testing and asbestos abatement.",
+    "kind": "document_page",
+    "page_sha256": "25ac7953641ba4d45323c674ceb424740a63d9c6e834390950cab8bfcdd672db",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "120/208 V",
+    "doc": "CD",
+    "page": 290,
+    "matched": true,
+    "fact": "B10.service",
+    "full_quote": "120/208 V",
+    "kind": "document_page",
+    "page_sha256": "2735424577f42f51907bfe74ad1f75242046c7e08ecabcce977340fc90089c6e",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "All panel wiring is to be #14 AWG type TEW, minimum 19-stran",
+    "doc": "CD",
+    "page": 259,
+    "matched": true,
+    "fact": "B10.wiring",
+    "full_quote": "All panel wiring is to be #14 AWG type TEW, minimum 19-stranded copper for 15 A protected circuits. All other control and terminal interface wiring are to be #16 AWG TEW and protected at 5 A or less.",
+    "kind": "document_page",
+    "page_sha256": "05a0e4a851937162de8d0891422186ff27aea550846e116ffcabccd8fba087a6",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "Commissioning (Cx): the process of planning, documenting, ve",
+    "doc": "CD",
+    "page": 133,
+    "matched": true,
+    "fact": "B10.testing",
+    "full_quote": "Commissioning (Cx): the process of planning, documenting, verifying, and training, to provide a facility that operates as a fully functional system in accordance with the Contract Documents.",
+    "kind": "document_page",
+    "page_sha256": "6d000f387b9871091094837d37ffd09fb90f55d0afbc573133e2704af1c7de5f",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "The PLC shall be in Program mode.",
+    "doc": "CD",
+    "page": 140,
+    "matched": true,
+    "fact": "B10.controls",
+    "full_quote": "The PLC shall be in Program mode.",
+    "kind": "document_page",
+    "page_sha256": "9a1a08ef53533106748698ae200a26be4b561ee110f8730cd23928d38cab9ae5",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "PLC, SCADA, and HMI programming to be completed by ATAP Infr",
+    "doc": "CD",
+    "page": 253,
+    "matched": true,
+    "fact": "B10.controls",
+    "full_quote": "PLC, SCADA, and HMI programming to be completed by ATAP Infrastructure Management.",
+    "kind": "document_page",
+    "page_sha256": "60ef88aa78d687d70f1eaf0a8c5ca03c7cab27ff797b7b62ba1e772e17800268",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "The binders are to be Oxford® Catalog Binder with Expanding ",
+    "doc": "CD",
+    "page": 143,
+    "matched": true,
+    "fact": "B11.approved_manufacturers",
+    "full_quote": "The binders are to be Oxford® Catalog Binder with Expanding Posts, Model: OXFC619-3, or Van Bind Canada Expandable Binder, or Barlock expandable binders by Vancouver Bookbinding Ltd. (604) 872-8132 or 1-800-670-2463 or approved alternative.",
+    "kind": "document_page",
+    "page_sha256": "80a791e3380795e28b36481d347a0e07041f0f2b2637b448c45f57432fda2557",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "up to 2:00 p.m. local time on September 10, 2026.",
+    "doc": "CD",
+    "page": 7,
+    "matched": true,
+    "fact": "B12.closing",
+    "full_quote": "up to 2:00 p.m. local time on September 10, 2026.",
+    "kind": "document_page",
+    "page_sha256": "b79f0b37647c65a0f37e5d0d43f8e2d308ffa6a37b65b08826eefc655af6ded1",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": ".6 A site visit for confirmation of the concrete preparation",
+    "doc": "CD",
+    "page": 172,
+    "matched": true,
+    "fact": "B12.site_meeting",
+    "full_quote": ".6 A site visit for confirmation of the concrete preparation shall be carried out by the Engineer prior to the start of repair work.",
+    "kind": "document_page",
+    "page_sha256": "df81c6c150c59fabc72682fb3d17d89b96d049bf090364381cab9496f10b26e9",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "The Contractor shall provide a window of one week and proper",
+    "doc": "CD",
+    "page": 172,
+    "matched": true,
+    "fact": "B12.site_meeting",
+    "full_quote": "The Contractor shall provide a window of one week and proper access to allow the Engineer to perform this inspection: .1 Sample area: A site visit for confirmation of the sample repair area preparation shall be carried out by the Engineer prior to the start of the repair work.",
+    "kind": "document_page",
+    "page_sha256": "df81c6c150c59fabc72682fb3d17d89b96d049bf090364381cab9496f10b26e9",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "A bidders’ briefing is scheduled for August 26, 2026 at 2:00",
+    "doc": "CD",
+    "page": 7,
+    "matched": true,
+    "fact": "B12.site_meeting",
+    "full_quote": "A bidders’ briefing is scheduled for August 26, 2026 at 2:00 p.m.",
+    "kind": "document_page",
+    "page_sha256": "b79f0b37647c65a0f37e5d0d43f8e2d308ffa6a37b65b08826eefc655af6ded1",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "Clarifications requested by Bidders must be in writing not l",
+    "doc": "CD",
+    "page": 9,
+    "matched": true,
+    "fact": "B12.addenda_cutoff",
+    "full_quote": "Clarifications requested by Bidders must be in writing not less than 5 Business Days before Bid Closing Time.",
+    "kind": "document_page",
+    "page_sha256": "9f322b264dae26abc56b965916e08ce09a4a015a2c579aba7eb842724a1245e6",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "Bids shall remain open to acceptance and shall be irrevocabl",
+    "doc": "CD",
+    "page": 13,
+    "matched": true,
+    "fact": "B13.validity",
+    "full_quote": "Bids shall remain open to acceptance and shall be irrevocable for a period of 60-days after the bid closing date.",
+    "kind": "document_page",
+    "page_sha256": "3d9a6bd92d769f6e010c80ab02587cc8fff2dcef4e02252451153850a605c7a1",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "Bids shall be accompanied by a Bid Bond in an amount not les",
+    "doc": "CD",
+    "page": 11,
+    "matched": true,
+    "fact": "B13.bid_bond",
+    "full_quote": "Bids shall be accompanied by a Bid Bond in an amount not less than 10 percent of the Total Bid.",
+    "kind": "document_page",
+    "page_sha256": "61cf9b15361f7b40b07d77a852714f7de6e108957b8949a6deaf4659d74af3da",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "Performance Bond and Labour and Material Payment Bond each i",
+    "doc": "CD",
+    "page": 21,
+    "matched": true,
+    "fact": "B13.bonding",
+    "full_quote": "Performance Bond and Labour and Material Payment Bond each in the amount of 50% of the total bid",
+    "kind": "document_page",
+    "page_sha256": "06b1046ade58ebf1b644caff916911c1c371634b661dcc85321d990bdee8efb9",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "Commercial General Liability Insurance, in a form acceptable",
+    "doc": "CD",
+    "page": 98,
+    "matched": true,
+    "fact": "B13.insurance",
+    "full_quote": "Commercial General Liability Insurance, in a form acceptable to Owner, with limits of not less than $5,000,000.00 inclusive per occurrence for bodily injury, death and damage to property, including loss of use thereof.",
+    "kind": "document_page",
+    "page_sha256": "33906ebd459b62ac2511f9c5ec3f924427ceaa5bc7487b38a73780c546d43fa5",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   },
+   {
+    "quote": "Total Bid shall represent the entire cost to Owner for the c",
+    "doc": "CD",
+    "page": 12,
+    "matched": true,
+    "fact": "B13.taxes",
+    "full_quote": "Total Bid shall represent the entire cost to Owner for the completed works as specified and shown on the drawings, exclusive only of GST and PST payable by Owner.",
+    "kind": "document_page",
+    "page_sha256": "afee185dbcdda47f7bbdf4e0ce5bd8ee9bf557153f9852d903899c74a1d900c7",
+    "file_sha256": "e10925c4d362b366b604e03aed4272b253ed95c9664cebef5941eff54d8b7d65"
+   }
+  ]
+ },
+ "competition": {
+  "competition": {
+   "text": "Not found",
+   "source_url": null,
+   "source_label": null,
+   "quote": null,
+   "label": "Rule-checked"
+  },
+  "bidder_list": {
+   "text": "Not published",
+   "source_url": null,
+   "source_label": null,
+   "quote": null,
+   "label": "Rule-checked"
+  },
+  "awards": [],
+  "awards_status": "Not published",
+  "awards_query": null,
+  "data_as_of": null,
+  "notes": [
+   "Firm names from plan-taker lists are never collected or shown (register row 260); only counts.",
+   "No award search configured for this tender."
+  ],
+  "attribution": "Contains information licensed under the Open Government Licence – Canada: CanadaBuys tender and award notices (PSPC) and Proactive Disclosure of Contracts over $10,000 (TBS).",
+  "licence_url": "https://open.canada.ca/en/open-government-licence-canada"
+ },
+ "confidential": false,
+ "ai_stats": {
+  "calls": 7,
+  "failed_calls": 0,
+  "cache_hits": 0,
+  "input_mode": "pdf",
+  "pages_sent": 234,
+  "pages_total": 418,
+  "accepted": 47,
+  "rejected": 3,
+  "input_tokens": 146538,
+  "output_tokens": 5115,
+  "cost_usd": 0.258169,
+  "models": [
+   "gemini-3.1-flash-lite"
+  ],
+  "errors": [],
+  "provider": "gemini",
+  "ai_filled": 5,
+  "agrees": 0,
+  "disagrees": 2,
+  "hints": 0,
+  "protected_ai": 12,
+  "change_summaries": 0,
+  "filled": 21,
+  "total": 45
+ },
+ "ai_model": "gemini-3.1-flash-lite"
+}

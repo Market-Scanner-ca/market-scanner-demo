@@ -1,5 +1,16 @@
 [
  {
+  "quote": "Community Centre Rejuvenation Project",
+  "doc": "Add2",
+  "page": 1,
+  "matched": true,
+  "fact": "B1.title",
+  "full_quote": "Community Centre Rejuvenation Project",
+  "kind": "document_page",
+  "page_sha256": "7945080536227e9ecf64ba82a5ab22ae17f788ceb30cef23a1382d0f918aa71e",
+  "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
+ },
+ {
   "quote": "ITT2025-2901",
   "doc": "Add2",
   "page": 1,
@@ -33,6 +44,50 @@
   "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
  },
  {
+  "quote": "Document No.: ITT2025-2901",
+  "doc": "Add2",
+  "page": 1,
+  "matched": true,
+  "fact": "B1.solicitation",
+  "full_quote": "Document No.: ITT2025-2901",
+  "kind": "document_page",
+  "page_sha256": "7945080536227e9ecf64ba82a5ab22ae17f788ceb30cef23a1382d0f918aa71e",
+  "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
+ },
+ {
+  "quote": "Garden River First Nation",
+  "doc": "Add2",
+  "page": 1,
+  "matched": true,
+  "fact": "B2.owner",
+  "full_quote": "Garden River First Nation",
+  "kind": "document_page",
+  "page_sha256": "7945080536227e9ecf64ba82a5ab22ae17f788ceb30cef23a1382d0f918aa71e",
+  "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
+ },
+ {
+  "quote": "located at 6 Shingwauk Street, Garden River, Ontario",
+  "doc": "Add2",
+  "page": 26,
+  "matched": true,
+  "fact": "B6.site",
+  "full_quote": "located at 6 Shingwauk Street, Garden River, Ontario",
+  "kind": "document_page",
+  "page_sha256": "001b8a059e710a5ef093b5c6e68d7426bb0325a9f0136a290bf5bc1528fdd52f",
+  "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
+ },
+ {
+  "quote": "the tender price includes the contingency sum of $50,000.00",
+  "doc": "Add2",
+  "page": 2,
+  "matched": true,
+  "fact": "B8.other_dollar_figures",
+  "full_quote": "the tender price includes the contingency sum of $50,000.00",
+  "kind": "document_page",
+  "page_sha256": "585f3d501ff47836e06cb9e45c789e0ba9a9a20c28ab5202ee6c9711c8ac339c",
+  "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
+ },
+ {
   "quote": "Submission Deadline and Loca琀椀on: September 17, 2025 at 3:00",
   "doc": "Add2",
   "page": 22,
@@ -44,6 +99,28 @@
   "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
  },
  {
+  "quote": "The proposal submission date is hereby extended until Septem",
+  "doc": "Add2",
+  "page": 1,
+  "matched": true,
+  "fact": "B12.closing",
+  "full_quote": "The proposal submission date is hereby extended until September 24, 2025, at 3:00PM local time.",
+  "kind": "document_page",
+  "page_sha256": "7945080536227e9ecf64ba82a5ab22ae17f788ceb30cef23a1382d0f918aa71e",
+  "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
+ },
+ {
+  "quote": "ITT issued on August 19, 2025",
+  "doc": "Add2",
+  "page": 1,
+  "matched": true,
+  "fact": "B12.issued",
+  "full_quote": "ITT issued on August 19, 2025",
+  "kind": "document_page",
+  "page_sha256": "7945080536227e9ecf64ba82a5ab22ae17f788ceb30cef23a1382d0f918aa71e",
+  "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
+ },
+ {
   "quote": "ADDENDUM NO. 2",
   "doc": "Add2",
   "page": 1,
@@ -52,6 +129,39 @@
   "full_quote": "ADDENDUM NO. 2",
   "kind": "document_page",
   "page_sha256": "7945080536227e9ecf64ba82a5ab22ae17f788ceb30cef23a1382d0f918aa71e",
+  "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
+ },
+ {
+  "quote": "irrevocable for sixty (60) calendar days from the Bid closin",
+  "doc": "Add2",
+  "page": 2,
+  "matched": true,
+  "fact": "B13.validity",
+  "full_quote": "irrevocable for sixty (60) calendar days from the Bid closing date and time.",
+  "kind": "document_page",
+  "page_sha256": "585f3d501ff47836e06cb9e45c789e0ba9a9a20c28ab5202ee6c9711c8ac339c",
+  "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
+ },
+ {
+  "quote": "shall furnish a Labour and Material Payment Bond for 50% of ",
+  "doc": "Add2",
+  "page": 31,
+  "matched": true,
+  "fact": "B13.bonding",
+  "full_quote": "shall furnish a Labour and Material Payment Bond for 50% of the Total Tender Price and a Performance Bond for 100% of the Total Tender Price.",
+  "kind": "document_page",
+  "page_sha256": "bbc3d706e7ac58b9d90fda8964d022c2e02bd2276fd5517921dd498f98068a12",
+  "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
+ },
+ {
+  "quote": "GST and HST are NOT to be included.",
+  "doc": "Add2",
+  "page": 34,
+  "matched": true,
+  "fact": "B13.taxes",
+  "full_quote": "GST and HST are NOT to be included.",
+  "kind": "document_page",
+  "page_sha256": "84c555327a551211ddaf163e697e93cc70d55da939278c458f37586d19463b18",
   "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
  }
 ]

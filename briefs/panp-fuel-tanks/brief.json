@@ -1,7 +1,7 @@
 {
  "schema_version": "brief-v1.0",
  "generator_version": "0.1.0",
- "generated_at": "2026-11-03T07:44:32-06:00",
+ "generated_at": "2026-11-03T08:16:36-06:00",
  "org_id": "demo",
  "org_name": "Demo Electric",
  "title": "ET022-270285 Fuel Storage Tank System Replacement - Prince Albert National Park",
@@ -10,31 +10,65 @@
    "field": "B1",
    "key": "B1.title",
    "title": "Project",
-   "value": null,
-   "quotes": [],
-   "status": "Unknown",
-   "confidence": null,
-   "label": "Rule-checked",
+   "value": "ET022-270285 Fuel Storage Tank System Replacement - Prince Albert National Park",
+   "quotes": [
+    {
+     "text": "ET022-270285 Fuel Storage Tank System Replacement - Prince Albert National Park",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "Notice",
+      "page": 1,
+      "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3",
+      "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+      "url": null,
+      "label": "CanadaBuys notice · p.1",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Low",
+   "label": "AI-drafted",
    "as_of": null,
-   "rule_id": "B1.title",
-   "note": null,
-   "data": {},
-   "missing_note": "No 'Project Name' line in the documents read."
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-read from the quoted page (quote verified). Protected field: confirm it by hand before relying on it.",
+   "data": {
+    "ai_check": "protected_ai"
+   },
+   "missing_note": null
   },
   {
    "field": "B1",
    "key": "B1.project_no",
    "title": "Project / tender number",
-   "value": null,
-   "quotes": [],
-   "status": "Unknown",
-   "confidence": null,
-   "label": "Rule-checked",
+   "value": "WS5910624718-Doc5942351061",
+   "quotes": [
+    {
+     "text": "WS5910624718-Doc5942351061",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "Notice",
+      "page": 1,
+      "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3",
+      "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+      "url": null,
+      "label": "CanadaBuys notice · p.1",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Low",
+   "label": "AI-drafted",
    "as_of": null,
-   "rule_id": "B1.project_no",
-   "note": null,
-   "data": {},
-   "missing_note": "No project number found in the documents read."
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-read from the quoted page (quote verified). Protected field: confirm it by hand before relying on it.",
+   "data": {
+    "ai_check": "protected_ai"
+   },
+   "missing_note": null
   },
   {
    "field": "B1",
@@ -66,7 +100,8 @@
    "data": {
     "solicitation_no": "WS5910624718",
     "kind": null,
-    "confirmed_by": "demo build script"
+    "confirmed_by": "demo build script",
+    "ai_check": "agrees"
    },
    "missing_note": null
   },
@@ -74,31 +109,65 @@
    "field": "B2",
    "key": "B2.owner",
    "title": "Owner / who you bid to",
-   "value": null,
-   "quotes": [],
-   "status": "Unknown",
-   "confidence": null,
-   "label": "Rule-checked",
+   "value": "Department of Public Works and Government Services (PSPC)",
+   "quotes": [
+    {
+     "text": "Department of Public Works and Government Services (PSPC)",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "Notice",
+      "page": 1,
+      "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3",
+      "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+      "url": null,
+      "label": "CanadaBuys notice · p.1",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Medium",
+   "label": "AI-drafted",
    "as_of": null,
-   "rule_id": "B2.owner",
-   "note": null,
-   "data": {},
-   "missing_note": "No Owner article in the documents read."
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-drafted from the quoted page; not yet reviewed.",
+   "data": {
+    "ai_check": "ai_only"
+   },
+   "missing_note": null
   },
   {
    "field": "B2",
    "key": "B2.facility",
    "title": "Facility / end user",
-   "value": null,
-   "quotes": [],
-   "status": "Unknown",
-   "confidence": null,
-   "label": "Rule-checked",
+   "value": "maintenance compound of Prince Albert National Park",
+   "quotes": [
+    {
+     "text": "maintenance compound of Prince Albert National Park",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "Notice",
+      "page": 1,
+      "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3",
+      "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+      "url": null,
+      "label": "CanadaBuys notice · p.1",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Medium",
+   "label": "AI-drafted",
    "as_of": null,
-   "rule_id": "B2.facility",
-   "note": null,
-   "data": {},
-   "missing_note": "The documents do not name the facility separately from the owner."
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-drafted from the quoted page; not yet reviewed.",
+   "data": {
+    "ai_check": "ai_only"
+   },
+   "missing_note": null
   },
   {
    "field": "B3",
@@ -166,16 +235,33 @@
    "field": "B6",
    "key": "B6.site",
    "title": "Location",
-   "value": null,
-   "quotes": [],
-   "status": "Unknown",
-   "confidence": null,
-   "label": "Rule-checked",
+   "value": "Prince Albert National Park in Saskatchewan",
+   "quotes": [
+    {
+     "text": "Prince Albert National Park in Saskatchewan",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "Notice",
+      "page": 1,
+      "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3",
+      "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+      "url": null,
+      "label": "CanadaBuys notice · p.1",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Medium",
+   "label": "AI-drafted",
    "as_of": null,
-   "rule_id": "B6.site",
-   "note": null,
-   "data": {},
-   "missing_note": "No project location line in the documents read."
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-drafted from the quoted page; not yet reviewed.",
+   "data": {
+    "ai_check": "ai_only"
+   },
+   "missing_note": null
   },
   {
    "field": "B6",
@@ -196,16 +282,33 @@
    "field": "B7",
    "key": "B7.work_type",
    "title": "Work type",
-   "value": null,
-   "quotes": [],
-   "status": "Unknown",
-   "confidence": null,
-   "label": "Rule-checked",
+   "value": "decommissioning and replacement of fuel storage tank systems",
+   "quotes": [
+    {
+     "text": "decommissioning and replacement of fuel storage tank systems",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "Notice",
+      "page": 1,
+      "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3",
+      "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+      "url": null,
+      "label": "CanadaBuys notice · p.1",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Medium",
+   "label": "AI-drafted",
    "as_of": null,
-   "rule_id": "B7.work_type",
-   "note": null,
-   "data": {},
-   "missing_note": "Work type not stated in the title."
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-drafted from the quoted page; not yet reviewed.",
+   "data": {
+    "ai_check": "ai_only"
+   },
+   "missing_note": null
   },
   {
    "field": "B7",
@@ -481,16 +584,33 @@
    "field": "B12",
    "key": "B12.closing",
    "title": "Closing date / time",
-   "value": null,
-   "quotes": [],
-   "status": "Unknown",
-   "confidence": null,
-   "label": "Rule-checked",
+   "value": "2026-11-19T14:00:00",
+   "quotes": [
+    {
+     "text": "2026-11-19T14:00:00",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "Notice",
+      "page": 1,
+      "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3",
+      "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+      "url": null,
+      "label": "CanadaBuys notice · p.1",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Low",
+   "label": "AI-drafted",
    "as_of": null,
-   "rule_id": "B12.closing",
-   "note": null,
-   "data": {},
-   "missing_note": "Not in the documents read. Confirm the deadline on the tender portal."
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-read from the quoted page (quote verified). Protected field: confirm it by hand before relying on it.",
+   "data": {
+    "ai_check": "protected_ai"
+   },
+   "missing_note": null
   },
   {
    "field": "B12",
@@ -526,16 +646,33 @@
    "field": "B12",
    "key": "B12.addenda",
    "title": "Addenda",
-   "value": null,
-   "quotes": [],
-   "status": "Unknown",
-   "confidence": null,
-   "label": "Rule-checked",
+   "value": "004",
+   "quotes": [
+    {
+     "text": "Amendment number: 004",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "Notice",
+      "page": 1,
+      "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3",
+      "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+      "url": null,
+      "label": "CanadaBuys notice · p.1",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Low",
+   "label": "AI-drafted",
    "as_of": null,
-   "rule_id": "B12.addenda",
-   "note": null,
-   "data": {},
-   "missing_note": "No addenda in the files read."
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-read from the quoted page (quote verified). Protected field: confirm it by hand before relying on it.",
+   "data": {
+    "ai_check": "protected_ai"
+   },
+   "missing_note": null
   },
   {
    "field": "B12",
@@ -556,17 +693,33 @@
       "entered_by": null,
       "entered_at": null
      }
+    },
+    {
+     "text": "Canada will hold an optional Bidders' conference virtually on MS Teams on Wednesday, November 4, 2026 from 10:00 AM CDT to 12:00 PM CDT.",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "Notice",
+      "page": 1,
+      "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3",
+      "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+      "url": null,
+      "label": "CanadaBuys notice · p.1",
+      "entered_by": null,
+      "entered_at": null
+     }
     }
    ],
-   "status": "Document-supported",
-   "confidence": "Medium",
+   "status": "Conflicted",
+   "confidence": "Low",
    "label": "Rule-checked",
    "as_of": null,
    "rule_id": "b12.site_meeting",
-   "note": null,
+   "note": "AI read this differently: “Canada will hold an optional Bidders' conference virtually on MS Teams on Wednesday, November 4, 2026 from 10:00 AM CDT to 12:00 PM CDT.” (CanadaBuys notice · p.1). Check both quotes.",
    "data": {
     "mandatory": null,
-    "held": false
+    "held": false,
+    "ai_check": "disagrees",
+    "ai_value": "Canada will hold an optional Bidders' conference virtually on MS Teams on Wednesday, November 4, 2026 from 10:00 AM CDT to 12:00 PM CDT."
    },
    "missing_note": null
   },
@@ -604,16 +757,33 @@
    "field": "B12",
    "key": "B12.construction_window",
    "title": "Construction window",
-   "value": null,
-   "quotes": [],
-   "status": "Unknown",
-   "confidence": null,
-   "label": "Rule-checked",
+   "value": "35 weeks after award",
+   "quotes": [
+    {
+     "text": "The Contractor must complete the work 35 weeks after award.",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "Notice",
+      "page": 1,
+      "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3",
+      "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+      "url": null,
+      "label": "CanadaBuys notice · p.1",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Low",
+   "label": "AI-drafted",
    "as_of": null,
-   "rule_id": "B12.construction_window",
-   "note": null,
-   "data": {},
-   "missing_note": "No construction start or completion found."
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-read from the quoted page (quote verified). Protected field: confirm it by hand before relying on it.",
+   "data": {
+    "ai_check": "protected_ai"
+   },
+   "missing_note": null
   },
   {
    "field": "B13",
@@ -805,7 +975,9 @@
   "folder_document_files_total": null,
   "pages_total": 1,
   "pages_with_text": 1,
-  "notes": [],
+  "notes": [
+   "AI read 1 of 1 pages (pdf) in 1 call(s): 11 quote-checked proposals accepted, 0 rejected (quote not on the cited page); 3,742 tokens, $0.0209 counted against the monthly cap."
+  ],
   "confidence_cap": null
  },
  "closing_at": null,
@@ -818,10 +990,98 @@
  },
  "quote_check": {
   "mode": "strict: NFC + whitespace collapsed, case-sensitive substring; page and file sha256 checked",
-  "total": 1,
-  "matched": 1,
+  "total": 11,
+  "matched": 11,
   "hand_entries": 1,
   "entries": [
+   {
+    "quote": "ET022-270285 Fuel Storage Tank System Replacement - Prince A",
+    "doc": "Notice",
+    "page": 1,
+    "matched": true,
+    "fact": "B1.title",
+    "full_quote": "ET022-270285 Fuel Storage Tank System Replacement - Prince Albert National Park",
+    "kind": "document_page",
+    "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+    "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3"
+   },
+   {
+    "quote": "WS5910624718-Doc5942351061",
+    "doc": "Notice",
+    "page": 1,
+    "matched": true,
+    "fact": "B1.project_no",
+    "full_quote": "WS5910624718-Doc5942351061",
+    "kind": "document_page",
+    "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+    "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3"
+   },
+   {
+    "quote": "Department of Public Works and Government Services (PSPC)",
+    "doc": "Notice",
+    "page": 1,
+    "matched": true,
+    "fact": "B2.owner",
+    "full_quote": "Department of Public Works and Government Services (PSPC)",
+    "kind": "document_page",
+    "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+    "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3"
+   },
+   {
+    "quote": "maintenance compound of Prince Albert National Park",
+    "doc": "Notice",
+    "page": 1,
+    "matched": true,
+    "fact": "B2.facility",
+    "full_quote": "maintenance compound of Prince Albert National Park",
+    "kind": "document_page",
+    "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+    "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3"
+   },
+   {
+    "quote": "Prince Albert National Park in Saskatchewan",
+    "doc": "Notice",
+    "page": 1,
+    "matched": true,
+    "fact": "B6.site",
+    "full_quote": "Prince Albert National Park in Saskatchewan",
+    "kind": "document_page",
+    "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+    "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3"
+   },
+   {
+    "quote": "decommissioning and replacement of fuel storage tank systems",
+    "doc": "Notice",
+    "page": 1,
+    "matched": true,
+    "fact": "B7.work_type",
+    "full_quote": "decommissioning and replacement of fuel storage tank systems",
+    "kind": "document_page",
+    "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+    "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3"
+   },
+   {
+    "quote": "2026-11-19T14:00:00",
+    "doc": "Notice",
+    "page": 1,
+    "matched": true,
+    "fact": "B12.closing",
+    "full_quote": "2026-11-19T14:00:00",
+    "kind": "document_page",
+    "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+    "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3"
+   },
+   {
+    "quote": "Amendment number: 004",
+    "doc": "Notice",
+    "page": 1,
+    "matched": true,
+    "fact": "B12.addenda",
+    "full_quote": "Amendment number: 004",
+    "kind": "document_page",
+    "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+    "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3"
+   },
    {
     "quote": "Canada will hold an optional Bidders' conference virtually o",
     "doc": "Notice",
@@ -829,6 +1089,28 @@
     "matched": true,
     "fact": "B12.site_meeting",
     "full_quote": "Canada will hold an optional Bidders' conference virtually on MS Teams on Wednesday, November 4, 2026 from 10:00 AM CDT to 12:00 PM CDT.",
+    "kind": "document_page",
+    "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+    "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3"
+   },
+   {
+    "quote": "Canada will hold an optional Bidders' conference virtually o",
+    "doc": "Notice",
+    "page": 1,
+    "matched": true,
+    "fact": "B12.site_meeting",
+    "full_quote": "Canada will hold an optional Bidders' conference virtually on MS Teams on Wednesday, November 4, 2026 from 10:00 AM CDT to 12:00 PM CDT.",
+    "kind": "document_page",
+    "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
+    "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3"
+   },
+   {
+    "quote": "The Contractor must complete the work 35 weeks after award.",
+    "doc": "Notice",
+    "page": 1,
+    "matched": true,
+    "fact": "B12.construction_window",
+    "full_quote": "The Contractor must complete the work 35 weeks after award.",
     "kind": "document_page",
     "page_sha256": "d1e6b881ffd5d150fb291767c57ab8c86dcff9d9f8064676fcf8edb9ba53289e",
     "file_sha256": "3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3"
@@ -927,5 +1209,31 @@
   "licence_url": "https://open.canada.ca/en/open-government-licence-canada"
  },
  "confidential": false,
- "ai_model": null
+ "ai_stats": {
+  "calls": 1,
+  "failed_calls": 0,
+  "cache_hits": 0,
+  "input_mode": "pdf",
+  "pages_sent": 1,
+  "pages_total": 1,
+  "accepted": 11,
+  "rejected": 0,
+  "input_tokens": 1200,
+  "output_tokens": 2542,
+  "cost_usd": 0.020865,
+  "models": [
+   "gemini-3.1-flash-lite"
+  ],
+  "errors": [],
+  "provider": "gemini",
+  "ai_filled": 4,
+  "agrees": 1,
+  "disagrees": 1,
+  "hints": 0,
+  "protected_ai": 5,
+  "change_summaries": 0,
+  "filled": 11,
+  "total": 45
+ },
+ "ai_model": "gemini-3.1-flash-lite"
 }

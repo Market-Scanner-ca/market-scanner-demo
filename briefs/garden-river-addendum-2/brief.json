@@ -1,25 +1,42 @@
 {
  "schema_version": "brief-v1.0",
  "generator_version": "0.1.0",
- "generated_at": "2026-11-03T07:44:32-06:00",
+ "generated_at": "2026-11-03T08:16:36-06:00",
  "org_id": "demo",
  "org_name": "Demo Electric",
- "title": "Untitled tender",
+ "title": "Community Centre Rejuvenation Project",
  "facts": [
   {
    "field": "B1",
    "key": "B1.title",
    "title": "Project",
-   "value": null,
-   "quotes": [],
-   "status": "Unknown",
-   "confidence": null,
-   "label": "Rule-checked",
+   "value": "Community Centre Rejuvenation Project",
+   "quotes": [
+    {
+     "text": "Community Centre Rejuvenation Project",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "Add2",
+      "page": 1,
+      "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a",
+      "page_sha256": "7945080536227e9ecf64ba82a5ab22ae17f788ceb30cef23a1382d0f918aa71e",
+      "url": null,
+      "label": "Addendum 2 · p.1",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Low",
+   "label": "AI-drafted",
    "as_of": null,
-   "rule_id": "B1.title",
-   "note": null,
-   "data": {},
-   "missing_note": "No 'Project Name' line in the documents read."
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-read from the quoted page (quote verified). Protected field: confirm it by hand before relying on it.",
+   "data": {
+    "ai_check": "protected_ai"
+   },
+   "missing_note": null
   },
   {
    "field": "B1",
@@ -83,17 +100,33 @@
       "entered_by": null,
       "entered_at": null
      }
+    },
+    {
+     "text": "Document No.: ITT2025-2901",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "Add2",
+      "page": 1,
+      "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a",
+      "page_sha256": "7945080536227e9ecf64ba82a5ab22ae17f788ceb30cef23a1382d0f918aa71e",
+      "url": null,
+      "label": "Addendum 2 · p.1",
+      "entered_by": null,
+      "entered_at": null
+     }
     }
    ],
-   "status": "Document-supported",
-   "confidence": "Medium",
+   "status": "Conflicted",
+   "confidence": "Low",
    "label": "Rule-checked",
    "as_of": null,
    "rule_id": "b1.solicitation",
-   "note": null,
+   "note": "AI read this differently: “ITT2025-2901” (Addendum 2 · p.1). Check both quotes.",
    "data": {
     "solicitation_no": "2025-2901",
-    "kind": "ITT"
+    "kind": "ITT",
+    "ai_check": "disagrees",
+    "ai_value": "ITT2025-2901"
    },
    "missing_note": null
   },
@@ -101,16 +134,33 @@
    "field": "B2",
    "key": "B2.owner",
    "title": "Owner / who you bid to",
-   "value": null,
-   "quotes": [],
-   "status": "Unknown",
-   "confidence": null,
-   "label": "Rule-checked",
+   "value": "Garden River First Nation",
+   "quotes": [
+    {
+     "text": "Garden River First Nation",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "Add2",
+      "page": 1,
+      "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a",
+      "page_sha256": "7945080536227e9ecf64ba82a5ab22ae17f788ceb30cef23a1382d0f918aa71e",
+      "url": null,
+      "label": "Addendum 2 · p.1",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Medium",
+   "label": "AI-drafted",
    "as_of": null,
-   "rule_id": "B2.owner",
-   "note": null,
-   "data": {},
-   "missing_note": "No Owner article in the documents read."
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-drafted from the quoted page; not yet reviewed.",
+   "data": {
+    "ai_check": "ai_only"
+   },
+   "missing_note": null
   },
   {
    "field": "B2",
@@ -193,16 +243,33 @@
    "field": "B6",
    "key": "B6.site",
    "title": "Location",
-   "value": null,
-   "quotes": [],
-   "status": "Unknown",
-   "confidence": null,
-   "label": "Rule-checked",
+   "value": "6 Shingwauk Street, Garden River, Ontario",
+   "quotes": [
+    {
+     "text": "located at 6 Shingwauk Street, Garden River, Ontario",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "Add2",
+      "page": 26,
+      "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a",
+      "page_sha256": "001b8a059e710a5ef093b5c6e68d7426bb0325a9f0136a290bf5bc1528fdd52f",
+      "url": null,
+      "label": "Addendum 2 · p.26",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Medium",
+   "label": "AI-drafted",
    "as_of": null,
-   "rule_id": "B6.site",
-   "note": null,
-   "data": {},
-   "missing_note": "No project location line in the documents read."
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-drafted from the quoted page; not yet reviewed.",
+   "data": {
+    "ai_check": "ai_only"
+   },
+   "missing_note": null
   },
   {
    "field": "B6",
@@ -313,16 +380,33 @@
    "field": "B8",
    "key": "B8.other_dollar_figures",
    "title": "Dollar figures in the documents (not the project value)",
-   "value": null,
-   "quotes": [],
-   "status": "Unknown",
-   "confidence": null,
-   "label": "Rule-checked",
+   "value": "$50,000.00 contingency sum",
+   "quotes": [
+    {
+     "text": "the tender price includes the contingency sum of $50,000.00",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "Add2",
+      "page": 2,
+      "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a",
+      "page_sha256": "585f3d501ff47836e06cb9e45c789e0ba9a9a20c28ab5202ee6c9711c8ac339c",
+      "url": null,
+      "label": "Addendum 2 · p.2",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Low",
+   "label": "AI-drafted",
    "as_of": null,
-   "rule_id": "B8.other_dollar_figures",
-   "note": null,
-   "data": {},
-   "missing_note": "No dollar amounts found."
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-read from the quoted page (quote verified). Protected field: confirm it by hand before relying on it.",
+   "data": {
+    "ai_check": "protected_ai"
+   },
+   "missing_note": null
   },
   {
    "field": "B9",
@@ -523,16 +607,32 @@
       "entered_by": null,
       "entered_at": null
      }
+    },
+    {
+     "text": "The proposal submission date is hereby extended until September 24, 2025, at 3:00PM local time.",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "Add2",
+      "page": 1,
+      "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a",
+      "page_sha256": "7945080536227e9ecf64ba82a5ab22ae17f788ceb30cef23a1382d0f918aa71e",
+      "url": null,
+      "label": "Addendum 2 · p.1",
+      "entered_by": null,
+      "entered_at": null
+     }
     }
    ],
-   "status": "Document-supported",
-   "confidence": "High",
+   "status": "Conflicted",
+   "confidence": "Low",
    "label": "Rule-checked",
    "as_of": null,
    "rule_id": "b12.closing",
-   "note": null,
+   "note": "AI read this differently: “September 24, 2025, at 3:00PM local time” (Addendum 2 · p.1). Check both quotes.",
    "data": {
-    "closing_iso": "2025-09-17T15:00:00-05:00"
+    "closing_iso": "2025-09-17T15:00:00-05:00",
+    "ai_check": "disagrees",
+    "ai_value": "September 24, 2025, at 3:00PM local time"
    },
    "missing_note": null
   },
@@ -555,16 +655,33 @@
    "field": "B12",
    "key": "B12.issued",
    "title": "Issued for tender",
-   "value": null,
-   "quotes": [],
-   "status": "Unknown",
-   "confidence": null,
-   "label": "Rule-checked",
+   "value": "August 19, 2025",
+   "quotes": [
+    {
+     "text": "ITT issued on August 19, 2025",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "Add2",
+      "page": 1,
+      "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a",
+      "page_sha256": "7945080536227e9ecf64ba82a5ab22ae17f788ceb30cef23a1382d0f918aa71e",
+      "url": null,
+      "label": "Addendum 2 · p.1",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Low",
+   "label": "AI-drafted",
    "as_of": null,
-   "rule_id": "B12.issued",
-   "note": null,
-   "data": {},
-   "missing_note": "No 'issued for tender' revision found."
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-read from the quoted page (quote verified). Protected field: confirm it by hand before relying on it.",
+   "data": {
+    "ai_check": "protected_ai"
+   },
+   "missing_note": null
   },
   {
    "field": "B12",
@@ -608,7 +725,8 @@
      "number": "2",
      "date": "2025-09-12",
      "pages": 51
-    }
+    },
+    "ai_check": "agrees"
    },
    "missing_note": null
   },
@@ -676,16 +794,33 @@
    "field": "B13",
    "key": "B13.validity",
    "title": "Bid validity",
-   "value": null,
-   "quotes": [],
-   "status": "Unknown",
-   "confidence": null,
-   "label": "Rule-checked",
+   "value": "60 calendar days",
+   "quotes": [
+    {
+     "text": "irrevocable for sixty (60) calendar days from the Bid closing date and time.",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "Add2",
+      "page": 2,
+      "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a",
+      "page_sha256": "585f3d501ff47836e06cb9e45c789e0ba9a9a20c28ab5202ee6c9711c8ac339c",
+      "url": null,
+      "label": "Addendum 2 · p.2",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Low",
+   "label": "AI-drafted",
    "as_of": null,
-   "rule_id": "B13.validity",
-   "note": null,
-   "data": {},
-   "missing_note": "No bid validity period found."
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-read from the quoted page (quote verified). Protected field: confirm it by hand before relying on it.",
+   "data": {
+    "ai_check": "protected_ai"
+   },
+   "missing_note": null
   },
   {
    "field": "B13",
@@ -706,16 +841,33 @@
    "field": "B13",
    "key": "B13.bonding",
    "title": "Agreement to bond / performance bonds",
-   "value": null,
-   "quotes": [],
-   "status": "Unknown",
-   "confidence": null,
-   "label": "Rule-checked",
+   "value": "Labour and Material Payment Bond for 50% of Total Tender Price, Performance Bond for 100% of Total Tender Price",
+   "quotes": [
+    {
+     "text": "shall furnish a Labour and Material Payment Bond for 50% of the Total Tender Price and a Performance Bond for 100% of the Total Tender Price.",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "Add2",
+      "page": 31,
+      "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a",
+      "page_sha256": "bbc3d706e7ac58b9d90fda8964d022c2e02bd2276fd5517921dd498f98068a12",
+      "url": null,
+      "label": "Addendum 2 · p.31",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Low",
+   "label": "AI-drafted",
    "as_of": null,
-   "rule_id": "B13.bonding",
-   "note": null,
-   "data": {},
-   "missing_note": "No surety or bonding requirement found."
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-read from the quoted page (quote verified). Protected field: confirm it by hand before relying on it.",
+   "data": {
+    "ai_check": "protected_ai"
+   },
+   "missing_note": null
   },
   {
    "field": "B13",
@@ -766,16 +918,33 @@
    "field": "B13",
    "key": "B13.taxes",
    "title": "Taxes",
-   "value": null,
-   "quotes": [],
-   "status": "Unknown",
-   "confidence": null,
-   "label": "Rule-checked",
+   "value": "GST and HST are NOT to be included",
+   "quotes": [
+    {
+     "text": "GST and HST are NOT to be included.",
+     "source": {
+      "kind": "document_page",
+      "doc_key": "Add2",
+      "page": 34,
+      "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a",
+      "page_sha256": "84c555327a551211ddaf163e697e93cc70d55da939278c458f37586d19463b18",
+      "url": null,
+      "label": "Addendum 2 · p.34",
+      "entered_by": null,
+      "entered_at": null
+     }
+    }
+   ],
+   "status": "Document-supported",
+   "confidence": "Low",
+   "label": "AI-drafted",
    "as_of": null,
-   "rule_id": "B13.taxes",
-   "note": null,
-   "data": {},
-   "missing_note": "No tax instructions found."
+   "rule_id": "llm:gemini:gemini-3.5-flash:fields-v1",
+   "note": "AI-read from the quoted page (quote verified). Protected field: confirm it by hand before relying on it.",
+   "data": {
+    "ai_check": "protected_ai"
+   },
+   "missing_note": null
   }
  ],
  "changes": [],
@@ -829,15 +998,20 @@
    }
   ],
   "size_fit": "Unknown: no stated value, so size is neutral (your evidence: $0.25M–$5.00M (sample profile for the demo)).",
-  "eligibility_state": "no requirements read",
-  "eligibility_notes": [],
+  "eligibility_state": "gaps to confirm",
+  "eligibility_notes": [
+   "Surety / agreement to bond: required; not in your profile yet."
+  ],
   "gate_tier": "Not evaluated (Gate v2 port is a P1 deliverable)"
  },
  "recommendation": {
   "verdict": "Review",
-  "reasons": [],
+  "reasons": [
+   "Eligibility gaps to confirm before you bid (shown separately; not part of the score)."
+  ],
   "rule_ids": [
-   "r4.score_review"
+   "r4.score_review",
+   "r6.eligibility_gaps"
   ],
   "label": "Rule-checked"
  },
@@ -862,7 +1036,9 @@
   "folder_document_files_total": null,
   "pages_total": 51,
   "pages_with_text": 51,
-  "notes": [],
+  "notes": [
+   "AI read 51 of 51 pages (pdf) in 2 call(s): 14 quote-checked proposals accepted, 2 rejected (quote not on the cited page); 7,907 tokens, $0.0200 counted against the monthly cap."
+  ],
   "confidence_cap": null
  },
  "closing_at": "2025-09-17T15:00:00-05:00",
@@ -875,10 +1051,21 @@
  },
  "quote_check": {
   "mode": "strict: NFC + whitespace collapsed, case-sensitive substring; page and file sha256 checked",
-  "total": 5,
-  "matched": 5,
+  "total": 15,
+  "matched": 15,
   "hand_entries": 0,
   "entries": [
+   {
+    "quote": "Community Centre Rejuvenation Project",
+    "doc": "Add2",
+    "page": 1,
+    "matched": true,
+    "fact": "B1.title",
+    "full_quote": "Community Centre Rejuvenation Project",
+    "kind": "document_page",
+    "page_sha256": "7945080536227e9ecf64ba82a5ab22ae17f788ceb30cef23a1382d0f918aa71e",
+    "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
+   },
    {
     "quote": "ITT2025-2901",
     "doc": "Add2",
@@ -913,6 +1100,50 @@
     "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
    },
    {
+    "quote": "Document No.: ITT2025-2901",
+    "doc": "Add2",
+    "page": 1,
+    "matched": true,
+    "fact": "B1.solicitation",
+    "full_quote": "Document No.: ITT2025-2901",
+    "kind": "document_page",
+    "page_sha256": "7945080536227e9ecf64ba82a5ab22ae17f788ceb30cef23a1382d0f918aa71e",
+    "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
+   },
+   {
+    "quote": "Garden River First Nation",
+    "doc": "Add2",
+    "page": 1,
+    "matched": true,
+    "fact": "B2.owner",
+    "full_quote": "Garden River First Nation",
+    "kind": "document_page",
+    "page_sha256": "7945080536227e9ecf64ba82a5ab22ae17f788ceb30cef23a1382d0f918aa71e",
+    "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
+   },
+   {
+    "quote": "located at 6 Shingwauk Street, Garden River, Ontario",
+    "doc": "Add2",
+    "page": 26,
+    "matched": true,
+    "fact": "B6.site",
+    "full_quote": "located at 6 Shingwauk Street, Garden River, Ontario",
+    "kind": "document_page",
+    "page_sha256": "001b8a059e710a5ef093b5c6e68d7426bb0325a9f0136a290bf5bc1528fdd52f",
+    "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
+   },
+   {
+    "quote": "the tender price includes the contingency sum of $50,000.00",
+    "doc": "Add2",
+    "page": 2,
+    "matched": true,
+    "fact": "B8.other_dollar_figures",
+    "full_quote": "the tender price includes the contingency sum of $50,000.00",
+    "kind": "document_page",
+    "page_sha256": "585f3d501ff47836e06cb9e45c789e0ba9a9a20c28ab5202ee6c9711c8ac339c",
+    "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
+   },
+   {
     "quote": "Submission Deadline and Loca琀椀on: September 17, 2025 at 3:00",
     "doc": "Add2",
     "page": 22,
@@ -924,6 +1155,28 @@
     "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
    },
    {
+    "quote": "The proposal submission date is hereby extended until Septem",
+    "doc": "Add2",
+    "page": 1,
+    "matched": true,
+    "fact": "B12.closing",
+    "full_quote": "The proposal submission date is hereby extended until September 24, 2025, at 3:00PM local time.",
+    "kind": "document_page",
+    "page_sha256": "7945080536227e9ecf64ba82a5ab22ae17f788ceb30cef23a1382d0f918aa71e",
+    "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
+   },
+   {
+    "quote": "ITT issued on August 19, 2025",
+    "doc": "Add2",
+    "page": 1,
+    "matched": true,
+    "fact": "B12.issued",
+    "full_quote": "ITT issued on August 19, 2025",
+    "kind": "document_page",
+    "page_sha256": "7945080536227e9ecf64ba82a5ab22ae17f788ceb30cef23a1382d0f918aa71e",
+    "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
+   },
+   {
     "quote": "ADDENDUM NO. 2",
     "doc": "Add2",
     "page": 1,
@@ -932,6 +1185,39 @@
     "full_quote": "ADDENDUM NO. 2",
     "kind": "document_page",
     "page_sha256": "7945080536227e9ecf64ba82a5ab22ae17f788ceb30cef23a1382d0f918aa71e",
+    "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
+   },
+   {
+    "quote": "irrevocable for sixty (60) calendar days from the Bid closin",
+    "doc": "Add2",
+    "page": 2,
+    "matched": true,
+    "fact": "B13.validity",
+    "full_quote": "irrevocable for sixty (60) calendar days from the Bid closing date and time.",
+    "kind": "document_page",
+    "page_sha256": "585f3d501ff47836e06cb9e45c789e0ba9a9a20c28ab5202ee6c9711c8ac339c",
+    "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
+   },
+   {
+    "quote": "shall furnish a Labour and Material Payment Bond for 50% of ",
+    "doc": "Add2",
+    "page": 31,
+    "matched": true,
+    "fact": "B13.bonding",
+    "full_quote": "shall furnish a Labour and Material Payment Bond for 50% of the Total Tender Price and a Performance Bond for 100% of the Total Tender Price.",
+    "kind": "document_page",
+    "page_sha256": "bbc3d706e7ac58b9d90fda8964d022c2e02bd2276fd5517921dd498f98068a12",
+    "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
+   },
+   {
+    "quote": "GST and HST are NOT to be included.",
+    "doc": "Add2",
+    "page": 34,
+    "matched": true,
+    "fact": "B13.taxes",
+    "full_quote": "GST and HST are NOT to be included.",
+    "kind": "document_page",
+    "page_sha256": "84c555327a551211ddaf163e697e93cc70d55da939278c458f37586d19463b18",
     "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
    }
   ]
@@ -963,5 +1249,33 @@
   "licence_url": "https://open.canada.ca/en/open-government-licence-canada"
  },
  "confidential": false,
- "ai_model": null
+ "ai_stats": {
+  "calls": 2,
+  "failed_calls": 1,
+  "cache_hits": 0,
+  "input_mode": "pdf",
+  "pages_sent": 51,
+  "pages_total": 51,
+  "accepted": 14,
+  "rejected": 2,
+  "input_tokens": 6545,
+  "output_tokens": 1362,
+  "cost_usd": 0.020033,
+  "models": [
+   "gemini-3.6-flash"
+  ],
+  "errors": [
+   "Gemini HTTP 503 (gemini-3.1-flash-lite): This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+  ],
+  "provider": "gemini",
+  "ai_filled": 2,
+  "agrees": 1,
+  "disagrees": 2,
+  "hints": 0,
+  "protected_ai": 6,
+  "change_summaries": 0,
+  "filled": 11,
+  "total": 45
+ },
+ "ai_model": "gemini-3.6-flash"
 }
