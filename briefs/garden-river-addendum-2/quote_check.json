@@ -1,0 +1,57 @@
+[
+ {
+  "quote": "ITT2025-2901",
+  "doc": "Add2",
+  "page": 1,
+  "matched": true,
+  "fact": "B1.solicitation",
+  "full_quote": "ITT2025-2901",
+  "kind": "document_page",
+  "page_sha256": "7945080536227e9ecf64ba82a5ab22ae17f788ceb30cef23a1382d0f918aa71e",
+  "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
+ },
+ {
+  "quote": "ITT2025-2901",
+  "doc": "Add2",
+  "page": 2,
+  "matched": true,
+  "fact": "B1.solicitation",
+  "full_quote": "ITT2025-2901",
+  "kind": "document_page",
+  "page_sha256": "585f3d501ff47836e06cb9e45c789e0ba9a9a20c28ab5202ee6c9711c8ac339c",
+  "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
+ },
+ {
+  "quote": "ITT2025-2901",
+  "doc": "Add2",
+  "page": 3,
+  "matched": true,
+  "fact": "B1.solicitation",
+  "full_quote": "ITT2025-2901",
+  "kind": "document_page",
+  "page_sha256": "63b6f4b4e2a4fa8cdfcf3ff76b2b4fd377a7b0f3fa7a9be3955656bbdc5e7000",
+  "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
+ },
+ {
+  "quote": "Submission Deadline and Loca琀椀on: September 17, 2025 at 3:00",
+  "doc": "Add2",
+  "page": 22,
+  "matched": true,
+  "fact": "B12.closing",
+  "full_quote": "Submission Deadline and Loca琀椀on: September 17, 2025 at 3:00PM (EST) Garden River First Nation Band Office 7 Shingwauk Street, Garden River",
+  "kind": "document_page",
+  "page_sha256": "e7641dccde8ab744f00f298989bfa042ebb7d37a80ddced631583d3ac8bec47d",
+  "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
+ },
+ {
+  "quote": "ADDENDUM NO. 2",
+  "doc": "Add2",
+  "page": 1,
+  "matched": true,
+  "fact": "B12.addenda",
+  "full_quote": "ADDENDUM NO. 2",
+  "kind": "document_page",
+  "page_sha256": "7945080536227e9ecf64ba82a5ab22ae17f788ceb30cef23a1382d0f918aa71e",
+  "file_sha256": "0b20a439a6ccd1246dcf93cbf6540fc733e123f72b077b14cfe36285c4c4cd1a"
+ }
+]

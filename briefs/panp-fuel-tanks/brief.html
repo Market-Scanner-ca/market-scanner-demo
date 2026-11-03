@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Bid/No-Bid Brief · ET022-270285 Fuel Storage Tank System Replacement - Prince Albert National Park · Market Scanner</title>
+<style>/* Market Scanner brief styles. Ported from the prototype briefs (demo/src/build_brief.py and
+   the first real client brief, Nov 2, 2026) so generated briefs match the reviewed look.
+   Additions for msbrief are at the end. */
+:root{--ink:#15232f;--sub:#5b6b78;--line:#e3e8ed;--bg:#f4f6f8;--card:#fff;--brand:#143a5a;--acc:#2364db;
+--ok:#1f7a4d;--okbg:#e8f5ee;--warn:#9a5b00;--warnbg:#fff4e0;--bad:#a8322d;--badbg:#fdecea;--ex:#7a4fb5;--exbg:#f3eefb}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;color:var(--ink);background:var(--bg)}
+a{color:var(--acc);text-decoration:none} a:hover{text-decoration:underline}
+.top{background:var(--brand);color:#fff}
+.top .in{max-width:1040px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:12px}
+.logo{font-weight:700;letter-spacing:.2px;display:flex;align-items:center;gap:8px}
+.logo b{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:7px;background:#fff;color:var(--brand);font-size:13px}
+.nav{margin-left:auto;display:flex;gap:14px;font-size:13px;opacity:.9}
+.nav span{white-space:nowrap}
+.org{font-size:12px;background:rgba(255,255,255,.14);padding:3px 9px;border-radius:20px;white-space:nowrap}
+.banner{background:var(--warnbg);border-bottom:1px solid #f1d9a8;color:#5c3b00;font-size:13.5px}
+.banner .in{max-width:1040px;margin:0 auto;padding:9px 16px}
+main{max-width:1040px;margin:0 auto;padding:16px 16px 40px}
+.crumbs{font-size:12.5px;color:var(--sub);margin:2px 0 8px}
+h1{font-size:22px;line-height:1.25;margin:0 0 6px}
+.idline{font-size:13px;color:var(--sub);display:flex;flex-wrap:wrap;gap:4px 14px;margin-bottom:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin:0 0 14px}
+h2{font-size:16px;margin:0 0 10px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+h2 .hint{font-weight:400;font-size:12.5px;color:var(--sub)}
+.decision{border:1px solid #cfdcea;box-shadow:0 1px 2px rgba(20,58,90,.06)}
+.dec-head{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+.rec{background:var(--okbg);color:var(--ok);border:1px solid #bfe3cf;font-weight:700;padding:6px 12px;border-radius:8px;font-size:15px}
+.rec small{display:block;font-weight:500;color:#2e5b43;font-size:12.5px}
+.score{display:flex;align-items:center;gap:8px}
+.ring{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;font-weight:700;font-size:17px;
+background:conic-gradient(var(--acc) var(--deg),#e6ecf3 0);position:relative}
+.ring:before{content:"";position:absolute;inset:6px;background:#fff;border-radius:50%}
+.ring span{position:relative}
+.score .lbl{font-size:12.5px;color:var(--sub);line-height:1.3}
+.urg{margin-left:auto;text-align:right;font-size:13px;color:var(--sub);line-height:1.35}
+.urg b{color:var(--bad);font-size:18px;display:block} .urg span{display:block}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.cols h3{font-size:13px;text-transform:uppercase;letter-spacing:.5px;color:var(--sub);margin:0 0 6px}
+ol.reasons,ul.unk{margin:0;padding-left:20px}
+ol.reasons li,ul.unk li{margin:0 0 6px}
+ul.unk li::marker{color:var(--warn)}
+.next{margin-top:12px;padding-top:10px;border-top:1px dashed var(--line);font-size:13.5px}
+.next b{color:var(--brand)}
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.fact{border:1px solid var(--line);border-radius:10px;padding:11px 12px;background:#fff}
+.fact.is-example{border:1px dashed #b9a1dc;background:#fcfaff}
+.fact.is-missing{background:#fafbfc}
+.flabel{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.4px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:3px}
+.tag-ex{text-transform:none;letter-spacing:0;font-weight:600;font-size:11px;color:var(--ex);background:var(--exbg);border:1px solid #ddd0f0;border-radius:5px;padding:1px 6px}
+.fval{font-size:14.5px}
+.nf{color:var(--sub);font-style:italic}
+blockquote{margin:6px 0 0;padding:4px 9px;border-left:3px solid #d5dde6;color:#3d4c58;font-size:12.5px;background:#f8fafc;border-radius:0 6px 6px 0}
+.fnote{margin:6px 0 0;font-size:12px;color:var(--sub)}
+.fmeta{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.fsrc{font-size:11.5px;color:var(--sub);margin-top:4px;word-break:break-word}
+.pill,.conf,.prov{font-size:11px;padding:1px 7px;border-radius:20px;border:1px solid transparent;white-space:nowrap}
+.st-pub{background:#eaf1fb;color:#1d4f91;border-color:#cfdef3} .st-ver{background:var(--okbg);color:var(--ok)}
+.st-doc{background:#e9f6f6;color:#0f6464;border-color:#c7e6e6} .st-inf{background:var(--warnbg);color:var(--warn);border-color:#f1d9a8}
+.st-unk{background:#eef0f2;color:#55606a;border-color:#dde1e5} .st-sub{background:#eef;color:#336}
+.conf{background:#fff;border-color:#dfe5ea;color:#44525e} .c-high:before,.c-medium:before,.c-low:before{content:"●";margin-right:3px}
+.c-high:before{color:#1f7a4d} .c-medium:before{color:#d08a00} .c-low:before{color:#b23b35}
+.prov{background:#fff;border-color:#dfe5ea;color:#44525e} .pv-ai{border-style:dashed} .pv-rule:before{content:"✓ ";color:var(--ok)}
+.pv-ai:before{content:"✎ ";color:var(--ex)}
+ul.fitlist{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:8px 18px}
+.fit-row p{margin:3px 0 0;font-size:13px;color:#3d4c58}
+.fit-top{display:flex;align-items:center;gap:8px}
+.sgn{width:20px;height:20px;border-radius:6px;display:grid;place-items:center;font-weight:700;font-size:13px}
+.sp{background:var(--okbg);color:var(--ok)} .sm{background:var(--badbg);color:var(--bad)} .ss{background:#eef0f2;color:#55606a} .sq{background:var(--warnbg);color:var(--warn)}
+.fit-name{font-weight:600;font-size:14px} .fit-pts{margin-left:auto;font-size:13px;color:var(--sub);font-variant-numeric:tabular-nums}
+.bar{height:5px;background:#edf1f5;border-radius:4px;margin-top:5px;overflow:hidden} .bar i{display:block;height:100%;background:var(--acc)}
+.small{font-size:12.5px;color:var(--sub)}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th,td{text-align:left;padding:7px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:11.5px;text-transform:uppercase;letter-spacing:.4px;color:var(--sub);font-weight:600}
+.timeline{list-style:none;margin:0;padding:0}
+.timeline li{display:flex;gap:10px;padding:7px 0;border-bottom:1px solid var(--line);font-size:14px}
+.timeline li:last-child{border:0}
+.timeline .d{min-width:118px;font-weight:600;font-variant-numeric:tabular-nums}
+.timeline .t{flex:1}
+.chip{font-size:11px;border-radius:5px;padding:1px 6px;background:#eef0f2;color:#44525e;white-space:nowrap}
+.chip.red{background:var(--badbg);color:var(--bad)} .chip.amber{background:var(--warnbg);color:var(--warn)} .chip.green{background:var(--okbg);color:var(--ok)}
+.pro{font-size:10.5px;font-weight:700;letter-spacing:.4px;color:#6a3fb0;background:#f1eafc;border:1px solid #dccbf5;border-radius:5px;padding:1px 6px}
+.note-field{border:1px dashed #c9d3dc;border-radius:8px;padding:9px 11px;color:var(--sub);font-size:13.5px;background:#fbfcfd}
+.note-field .lock{font-size:11.5px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.kv{display:grid;grid-template-columns:130px 1fr;gap:4px 10px;font-size:13.5px}
+.kv div:nth-child(odd){color:var(--sub)}
+footer{max-width:1040px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:var(--sub)}
+footer p{margin:0 0 6px}
+.legend{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:12px;color:var(--sub);margin:0 0 10px}
+@media (max-width:880px){
+ .urg{margin-left:0;text-align:left;width:100%;display:block}
+ .urg b{display:inline;font-size:16px;margin-right:8px} .urg span{display:inline} .urg .sep:before{content:" · "}
+}
+@media (max-width:720px){
+ body{font-size:15px}
+ .nav{display:none}
+ .org{margin-left:auto}
+ h1{font-size:19px}
+ .cols,.facts,ul.fitlist,.grid2{grid-template-columns:1fr}
+ .dec-head{gap:10px;flex-wrap:nowrap} .rec{flex:1 1 0;min-width:0;font-size:14.5px} .score{flex:none} .ring{width:48px;height:48px;font-size:16px}
+ .dec-head{flex-wrap:wrap} .dec-head .urg{flex-basis:100%} .score .lbl{font-size:12px}
+ .idline{font-size:12px;gap:0 10px}
+ ol.reasons li,ul.unk li{font-size:14px;margin-bottom:4px}
+ .banner{font-size:12.5px}
+ .card{padding:14px 13px}
+ .timeline .d{min-width:92px}
+ .kv{grid-template-columns:105px 1fr}
+ table.resp thead{display:none}
+ table.resp tr{display:block;border-bottom:1px solid var(--line);padding:6px 0}
+ table.resp td{display:block;border:0;padding:2px 0}
+}
+@media print{
+ body{background:#fff;font-size:12.5px}
+ @page{size:Letter;margin:11mm 10mm}
+ main{padding:10px 0 10px} .top .in,.banner .in{padding-left:0;padding-right:0}
+ .card{border-color:#d9dee3;padding:12px} .decision{break-inside:avoid}
+ .fit-row,.timeline li,tr,.kv{break-inside:avoid} h2{break-after:avoid}
+ .grid2{display:block}
+ .fact{break-inside:avoid}
+ .nav{display:none}
+ a{color:#1d4f91}
+ .top,.banner{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+ *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+.banner.bconf{background:#eaf1fb;border-bottom:1px solid #cfdef3;color:#163a63}
+.qi{font-style:italic;color:#3d4c58}
+.kv>div,.grid2>*{min-width:0;overflow-wrap:anywhere}
+.grid2{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+@media (max-width:720px){.grid2{grid-template-columns:minmax(0,1fr)}}
+.sec-h{font-size:13px;text-transform:uppercase;letter-spacing:.5px;color:var(--sub);margin:14px 0 8px}
+.sec-h:first-of-type{margin-top:2px}
+.fp{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11.5px;word-break:break-all}
+@media print{
+ @page{size:Letter;margin:7mm 8mm}
+ body{font-size:10.5px;line-height:1.3}
+ .card,.decision{break-inside:auto !important;padding:9px 10px;margin-bottom:8px}
+ .facts{display:block;column-count:3;column-gap:8px}
+ .fact{break-inside:auto;display:block;margin:0 0 7px;padding:7px 8px} .fact blockquote,.fact .fmeta{break-inside:avoid}
+ .fval{font-size:10.5px} blockquote{font-size:9.5px;padding:3px 7px} .fnote{font-size:9.3px;margin-top:4px}
+ .flabel{font-size:9.5px} .fsrc{font-size:9px} .pill,.conf,.prov{font-size:8.5px;padding:0 5px} .fmeta{margin-top:5px;gap:3px}
+ .grid2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+ h1{font-size:17px} h2{font-size:13.5px;margin-bottom:6px} .idline{font-size:10.5px;margin-bottom:8px}
+ ol.reasons li,ul.unk li{font-size:10.5px;margin-bottom:3px} .next{font-size:10.5px}
+ table{font-size:10px} th,td{padding:4px 5px} .timeline li{font-size:10.5px;padding:4px 0} .timeline .d{min-width:105px}
+ .kv{font-size:10px;grid-template-columns:90px 1fr} ul.fitlist{gap:4px 14px} .fit-row p{font-size:10px} .fit-name{font-size:11px}
+ .sec-h{font-size:10.5px;margin:8px 0 5px}
+ tr,.fit-row,.timeline li{break-inside:avoid}
+ footer{font-size:9px;padding:0} .noprint{display:none}
+ ul.fitlist{grid-template-columns:1fr 1fr 1fr} .g-end{display:block} .g-end .kv{grid-template-columns:80px 1fr}
+ .fval{font-size:10px} body{font-size:10px} blockquote{font-size:9px} .fnote{font-size:9px}
+ .timeline .d{min-width:85px} .top .in{padding-top:6px;padding-bottom:6px} .banner .in{padding-top:5px;padding-bottom:5px} .crumbs{margin:0 0 4px}
+ .legend{margin-bottom:5px;font-size:9.5px} .fact{margin-bottom:5px !important;padding:6px 7px !important} .fmeta{margin-top:3px} blockquote{margin-top:4px} .card{margin-bottom:6px !important} .fit-row p{margin-top:1px} .small{font-size:9.5px !important} .flabel{break-after:avoid} .fsrc,.fmeta{break-before:avoid} .fval,.fnote{orphans:3;widows:3} .fp{font-size:9.5px}
+}
+
+/* --- msbrief additions --- */
+.banner.bclosed{background:var(--badbg);border-bottom:1px solid #f3c7c3;color:#6b1f1b}
+.banner.bclosed b{color:var(--bad)}
+.rec.r-review{background:var(--warnbg);color:var(--warn);border-color:#f1d9a8}
+.rec.r-review small{color:#6d4a00}
+.rec.r-nobid{background:var(--badbg);color:var(--bad);border-color:#f3c7c3}
+.rec.r-nobid small{color:#6b1f1b}
+.st-con{background:#fdecea;color:var(--bad);border-color:#f3c7c3}
+.pv-user:before{content:"✓ ";color:#1d4f91}
+.pv-doc:before{content:"▣ ";color:var(--ok)}
+.fval ul{margin:2px 0 0;padding-left:18px}
+.qlist blockquote+blockquote{margin-top:4px}
+.qsrc{display:block;font-style:normal;font-size:11px;color:var(--sub);margin-top:2px}
+.also li{font-size:13px;margin:0 0 4px}
+.watch-chip{display:inline-block;margin:0 4px 4px 0}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11.5px;word-break:break-all}
+</style></head>
+<body>
+<header class="top"><div class="in">
+ <div class="logo"><b>MS</b>Market Scanner</div>
+ <nav class="nav"><span>Matches</span><span>Watchlist</span><span>Profile</span><span>Settings</span></nav>
+ <span class="org">Demo Electric</span>
+</div></header>
+<div class="banner bconf"><div class="in"><b>Prepared for Demo Electric from public tender documents.</b> Every fact shows its quote, file and page; quotes were checked word-for-word against the stored page text.</div></div>
+<main>
+<div class="crumbs">Your files › ET022-270285 Fuel Storage Tank System Replacement - Prince Albert National Park › Bid/No-Bid brief</div>
+<h1>ET022-270285 Fuel Storage Tank System Replacement - Prince Albert National Park</h1>
+<div class="idline"> <span>Brief generated Tue Nov 3, 2026, 7:44 AM CST</span>
+</div>
+
+<section class="card decision" aria-labelledby="dec">
+ <h2 id="dec">Decision summary <span class="hint">· read this first</span></h2> <div class="dec-head">
+  <div class="rec r-review">Review<small>rule-based (r4.score_review); the decision is yours</small></div>
+  <div class="score"><div class="ring" style="--deg:180.0deg"><span>50</span></div><div class="lbl">Fit score<br>for Demo Electric<br><a href="#fit">Why this score</a></div></div>
+  <div class="urg"><b>Closing date not in files</b><span class="sep">Confirm the deadline on the tender portal</span>  </div>
+ </div>
+ <div class="cols">
+  <div><h3>Top reasons</h3><ol class="reasons">
+</ol></div>
+  <div><h3>Biggest unknowns</h3><ul class="unk">
+<li><b>Prime consultant:</b> not found in documents. No Consultant article in the documents read.</li>
+<li><b>Location:</b> not found in documents. No project location line in the documents read.</li>
+<li><b>Estimated value:</b> not found in documents. No budget or estimate is stated in the documents read. Market Scanner shows only stated values until the value-estimation golden set passes (PLAN §6.5, §14).</li>
+<li><b>Floor area:</b> not found in documents. No floor area is stated in the documents read.</li>
+<li><b>Cable / wiring method:</b> not found in documents. No wiring method found in the specs read.</li>
+<li><b>Generator:</b> not found in documents. No generator rating found.</li>
+<li><b>Closing date / time:</b> not found in documents. Not in the documents read. Confirm the deadline on the tender portal.</li>
+<li><b>Agreement to bond / performance bonds:</b> not found in documents. No surety or bonding requirement found.</li>
+<li><b>Insurance:</b> not found in documents. No insurance requirement found.</li>
+  </ul></div>
+ </div>
+ <div class="next"><b>Eligibility:</b> no requirements read <span class="small">(kept separate from the score). Gate v2 tier: Not evaluated (Gate v2 port is a P1 deliverable).</span></div>
+</section>
+
+<section class="card" aria-labelledby="kf">
+ <h2 id="kf">Key facts for bid/no-bid <span class="hint">· every fact shows its quote, file, page, status, confidence and label</span></h2>
+ <div class="legend">
+  <span class="pill st-doc">Document-supported</span>found in the tender documents
+  <span class="pill st-pub">Published</span>stated in the public notice
+  <span class="pill st-inf">Inferred</span>worked out by a rule, not stated
+  <span class="pill st-unk">Unknown</span>not in the files read
+  <span class="prov pv-doc">Document-verified</span>read from a form, table, title block or revision block
+  <span class="prov pv-rule">Rule-checked</span>quote matched word-for-word; value parsed from it
+  <span class="prov pv-user">User-confirmed</span>entered by a person
+  <span class="prov pv-ai">AI-drafted</span>not reviewed
+ </div>
+ <h3 class="sec-h">Scope, size and parties</h3>
+ <div class="facts"><div class="fact is-missing" id="f-B1.title">
+ <div class="flabel">Project <span class="small">B1</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No &#39;Project Name&#39; line in the documents read.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B1.project_no">
+ <div class="flabel">Project / tender number <span class="small">B1</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No project number found in the documents read.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact" id="f-B1.solicitation">
+ <div class="flabel">Solicitation number <span class="small">B1</span></div>
+ <div class="fval">WS5910624718</div><div class="qlist">  <blockquote>“WS5910624718”<span class="qsrc">CanadaBuys open tender notices (open data, OGL-Canada), entered by demo build script · <a href="https://canadabuys.canada.ca/opendata/pub/openTenderNotice-ouvertAvisAppelOffres.csv" target="_blank" rel="noopener">link</a></span></blockquote></div><p class="fnote">Not in the documents read; entered by hand from CanadaBuys open tender notices (open data, OGL-Canada).</p> <div class="fmeta"><span class="pill st-pub">Published</span><span class="conf c-medium">Medium confidence</span><span class="prov pv-user">User-confirmed</span></div>
+</div><div class="fact is-missing" id="f-B2.owner">
+ <div class="flabel">Owner / who you bid to <span class="small">B2</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No Owner article in the documents read.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B2.facility">
+ <div class="flabel">Facility / end user <span class="small">B2</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">The documents do not name the facility separately from the owner.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B3.gc">
+ <div class="flabel">General contractor <span class="small">B3</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">The documents read do not say whether bids go through a GC.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B4.prime_consultant">
+ <div class="flabel">Prime consultant <span class="small">B4</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No Consultant article in the documents read.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B4.title_block">
+ <div class="flabel">Other consultants (drawing title blocks) <span class="small">B4</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No consultant names in the drawing title blocks read.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B6.site">
+ <div class="flabel">Location <span class="small">B6</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No project location line in the documents read.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B6.municipality">
+ <div class="flabel">Municipality and distance <span class="small">B6</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">Municipality not stated in the documents read.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B7.work_type">
+ <div class="flabel">Work type <span class="small">B7</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">Work type not stated in the title.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B7.class">
+ <div class="flabel">Class of work <span class="small">B7</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">Owner and site do not indicate a class of work.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B7.scope_items">
+ <div class="flabel">Scope items found <span class="small">B7</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No scope keywords matched.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B7.carries_other_trades">
+ <div class="flabel">Electrical carries non-electrical work <span class="small">B7</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">The documents read do not say who carries non-electrical work.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B7.phasing">
+ <div class="flabel">Phasing <span class="small">B7</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No construction phasing found.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B8.value">
+ <div class="flabel">Estimated value <span class="small">B8</span></div>
+ <div class="fval"><b>Unknown</b> · <span class="nf">Not found in documents</span> <span class="small">No budget or estimate is stated in the documents read. Market Scanner shows only stated values until the value-estimation golden set passes (PLAN §6.5, §14).</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B8.other_dollar_figures">
+ <div class="flabel">Dollar figures in the documents (not the project value) <span class="small">B8</span></div>
+ <div class="fval"><b>Unknown</b> · <span class="nf">Not found in documents</span> <span class="small">No dollar amounts found.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B9.floor_area">
+ <div class="flabel">Floor area <span class="small">B9</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No floor area is stated in the documents read.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div></div>
+ <h3 class="sec-h">Technical specs, materials and equipment</h3>
+ <div class="facts"><div class="fact is-missing" id="f-B10.service">
+ <div class="flabel">Service voltage <span class="small">B10</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No service voltage found.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B10.wiring">
+ <div class="flabel">Cable / wiring method <span class="small">B10</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No wiring method found in the specs read.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B10.fire_alarm">
+ <div class="flabel">Fire alarm <span class="small">B10</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No fire alarm section found.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B10.testing">
+ <div class="flabel">Testing, studies and commissioning <span class="small">B10</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No testing or commissioning requirements found.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B10.controls">
+ <div class="flabel">PLC / SCADA / BMS <span class="small">B10</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No PLC or SCADA platform named.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B11.generator">
+ <div class="flabel">Generator <span class="small">B11</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No generator rating found.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B11.transfer_switch">
+ <div class="flabel">Transfer switch <span class="small">B11</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No transfer switch found.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B11.distribution">
+ <div class="flabel">Distribution <span class="small">B11</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No new distribution equipment found.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B11.feeders">
+ <div class="flabel">Main feeders <span class="small">B11</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No feeder schedule found.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B11.approved_manufacturers">
+ <div class="flabel">Approved manufacturers <span class="small">B11</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No approved-manufacturer list found in the specs read.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B11.alternates">
+ <div class="flabel">Alternate prices <span class="small">B11</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No alternate prices found.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div></div>
+ <h3 class="sec-h">Bonding, insurance and prequalification</h3>
+ <div class="facts"><div class="fact is-missing" id="f-B13.validity">
+ <div class="flabel">Bid validity <span class="small">B13</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No bid validity period found.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B13.bid_bond">
+ <div class="flabel">Bid bond <span class="small">B13</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No bid bond requirement found.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B13.bonding">
+ <div class="flabel">Agreement to bond / performance bonds <span class="small">B13</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No surety or bonding requirement found.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B13.insurance">
+ <div class="flabel">Insurance <span class="small">B13</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No insurance requirement found.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B13.safety">
+ <div class="flabel">Safety certification <span class="small">B13</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No safety certification required.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B13.submittals">
+ <div class="flabel">Required with the bid <span class="small">B13</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No bid submittals listed.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B13.taxes">
+ <div class="flabel">Taxes <span class="small">B13</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No tax instructions found.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div></div>
+</section>
+
+<section class="card" aria-labelledby="dth">
+ <h2 id="dth">Key dates <span class="hint">· B12</span></h2>
+ <div class="facts"><div class="fact is-missing" id="f-B12.closing">
+ <div class="flabel">Closing date / time <span class="small">B12</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">Not in the documents read. Confirm the deadline on the tender portal.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B12.closing_reference">
+ <div class="flabel">Where the documents put the deadline <span class="small">B12</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">The documents read do not say where the deadline is set.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B12.issued">
+ <div class="flabel">Issued for tender <span class="small">B12</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No &#39;issued for tender&#39; revision found.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B12.addenda">
+ <div class="flabel">Addenda <span class="small">B12</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No addenda in the files read.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact" id="f-B12.site_meeting">
+ <div class="flabel">Site meeting <span class="small">B12</span></div>
+ <div class="fval">A site meeting is mentioned; date not stated; mandatory or optional: not stated.</div><div class="qlist">  <blockquote>“Canada will hold an optional Bidders&#39; conference virtually on MS Teams on Wednesday, November 4, 2026 from 10:00 AM CDT to 12:00 PM CDT.”<span class="qsrc">CanadaBuys notice · p.1</span></blockquote></div> <div class="fmeta"><span class="pill st-doc">Document-supported</span><span class="conf c-medium">Medium confidence</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B12.substitutions">
+ <div class="flabel">Deadline for equals / substitutions <span class="small">B12</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No substitution deadline found.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B12.addenda_cutoff">
+ <div class="flabel">Last day for addenda <span class="small">B12</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No addenda cut-off found.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div><div class="fact is-missing" id="f-B12.construction_window">
+ <div class="flabel">Construction window <span class="small">B12</span></div>
+ <div class="fval"><span class="nf">Not found in documents</span> <span class="small">No construction start or completion found.</span></div> <div class="fmeta"><span class="pill st-unk">Unknown</span><span class="prov pv-rule">Rule-checked</span></div>
+</div></div>
+</section>
+
+<section class="card" aria-labelledby="mw">
+ <h2 id="mw">What changed <span class="hint">· B16, addenda in the files read</span>
+  <span class="chip amber">0 items</span></h2>
+<p class="small">No addenda in the files read.</p> <p class="small" style="margin:6px 0 0">Items are split and classified by deterministic rules (MasterFormat numbers, sheet prefixes, then keywords). No AI wording is used.</p>
+</section>
+
+<section class="card mi" id="comp" aria-labelledby="comph">
+ <h2 id="comph">Competition <span class="hint">· B19, public award and contract data</span></h2>
+ <div class="kv sig">
+  <div>Competition</div><div><b>Open bidding (anyone may bid; not invited)</b> <span class="small">“Competitive - Open bidding”</span> · <a href="https://canadabuys.canada.ca/opendata/pub/openTenderNotice-ouvertAvisAppelOffres.csv" target="_blank" rel="noopener">CanadaBuys tender notice</a></div>
+  <div>Plan-takers / bidders</div><div><span class="nf">Not published</span></div>
+  <div>Bidders on past similar jobs</div><div>1, 1, 1, 2, 3 bids on 5 past award(s) with published counts (median 1)</div>
+ </div>
+ <table class="aw resp"><thead><tr><th>Similar past awards <span class="small">(buyer pc; object code 1339; vendor postal code S…; since 2022-04-01)</span></th><th>Awarded</th><th>Winner</th><th class="r">Value</th><th class="r">Bids</th><th class="r">Grew after award</th></tr></thead><tbody>
+<tr><td><a href="https://search.open.canada.ca/contracts/record/pc,C-2026-2027-Q2-00095" target="_blank" rel="noopener">Other Engineering Works</a><br><span class="small">Parks Canada · Competitive - open bidding</span></td>
+  <td class="nw">2026-02-17</td><td>Flyer Electric LP</td><td class="r nw">$2,771,579</td>
+  <td class="r"><a href="https://search.open.canada.ca/contracts/record/pc,C-2026-2027-Q2-00095" target="_blank" rel="noopener">2</a></td>
+  <td class="r"><a href="https://search.open.canada.ca/contracts/record/pc,C-2026-2027-Q2-00095" target="_blank" rel="noopener">+8.5%</a></td></tr>
+<tr><td><a href="https://search.open.canada.ca/contracts/record/pc,C-2025-2026-Q3-00389" target="_blank" rel="noopener">Other Engineering Works</a><br><span class="small">Parks Canada · Competitive - open bidding</span></td>
+  <td class="nw">2025-11-04</td><td>Con-Tech General Contractors Ltd</td><td class="r nw">$204,596</td>
+  <td class="r"><a href="https://search.open.canada.ca/contracts/record/pc,C-2025-2026-Q3-00389" target="_blank" rel="noopener">1</a></td>
+  <td class="r"><a href="https://search.open.canada.ca/contracts/record/pc,C-2025-2026-Q3-00389" target="_blank" rel="noopener">+24.1%</a></td></tr>
+<tr><td><a href="https://search.open.canada.ca/contracts/record/pc,C-2025-2026-Q1-00380" target="_blank" rel="noopener">Other Engineering Works</a><br><span class="small">Parks Canada · Competitive</span></td>
+  <td class="nw">2025-05-02</td><td>RUSZKOWSKI ENTERPRISES LTD</td><td class="r nw">$109,284</td>
+  <td class="r"><a href="https://search.open.canada.ca/contracts/record/pc,C-2025-2026-Q1-00380" target="_blank" rel="noopener">1</a></td>
+  <td class="r"><a href="https://search.open.canada.ca/contracts/record/pc,C-2025-2026-Q1-00380" target="_blank" rel="noopener">none</a></td></tr>
+<tr><td><a href="https://search.open.canada.ca/contracts/record/pc,C-2023-2024-Q4-00469" target="_blank" rel="noopener">Other Engineering Works</a><br><span class="small">Parks Canada · Competitive - open bidding</span></td>
+  <td class="nw">2024-01-22</td><td>PARADISE POOLS (COMMERCIAL) INC.</td><td class="r nw">$263,268</td>
+  <td class="r"><a href="https://search.open.canada.ca/contracts/record/pc,C-2023-2024-Q4-00469" target="_blank" rel="noopener">3</a></td>
+  <td class="r"><a href="https://search.open.canada.ca/contracts/record/pc,C-2023-2024-Q4-00469" target="_blank" rel="noopener">none</a></td></tr>
+<tr><td><a href="https://search.open.canada.ca/contracts/record/pc,C-2023-2024-Q2-00076" target="_blank" rel="noopener">Other Engineering Works</a><br><span class="small">Parks Canada · Competitive - open bidding</span></td>
+  <td class="nw">2022-11-09</td><td>CON-TECH GENERAL CONTRACTORS LTD</td><td class="r nw">$670,845</td>
+  <td class="r"><a href="https://search.open.canada.ca/contracts/record/pc,C-2023-2024-Q2-00076" target="_blank" rel="noopener">1</a></td>
+  <td class="r"><a href="https://search.open.canada.ca/contracts/record/pc,C-2023-2024-Q2-00076" target="_blank" rel="noopener">+9.2%</a></td></tr>
+</tbody></table>
+ <p class="small note">Firm names from plan-taker lists are never collected or shown (register row 260); only counts. Growth = latest reported contract value vs. original value, from amendment records. Margins and losing bid prices: <span class="nf">Not published</span>. Contains information licensed under the Open Government Licence – Canada: CanadaBuys tender and award notices (PSPC) and Proactive Disclosure of Contracts over $10,000 (TBS). <a href="https://open.canada.ca/en/open-government-licence-canada" target="_blank" rel="noopener">Licence</a> · data as of 2026-11-03.</p>
+</section>
+
+<section class="card" id="fit" aria-labelledby="fith">
+ <h2 id="fith">Why 50/100 <span class="hint">· fit for Demo Electric, explained (B14)</span></h2>
+ <ul class="fitlist">
+  <li class="fit-row"><div class="fit-top"><span class="sgn ss">~</span>
+  <span class="fit-name">Scope match</span><span class="fit-pts">20/40</span></div>
+  <div class="bar"><i style="width:50%"></i></div><p>50% of the trade pages read are in your divisions (divisions found: none). 0 of 0 scope items match capabilities in your profile.</p></li>
+  <li class="fit-row"><div class="fit-top"><span class="sgn sq">?</span>
+  <span class="fit-name">Location</span><span class="fit-pts">10/20</span></div>
+  <div class="bar"><i style="width:50%"></i></div><p>Site or office location unknown, so this is neutral.</p></li>
+  <li class="fit-row"><div class="fit-top"><span class="sgn sq">?</span>
+  <span class="fit-name">Wiring and equipment specs</span><span class="fit-pts">7.5/15</span></div>
+  <div class="bar"><i style="width:50%"></i></div><p>No wiring or equipment requirements read, so this is neutral.</p></li>
+  <li class="fit-row"><div class="fit-top"><span class="sgn sq">?</span>
+  <span class="fit-name">How you&#39;d bid</span><span class="fit-pts">7.5/15</span></div>
+  <div class="bar"><i style="width:50%"></i></div><p>How bids are received is not stated, so this is neutral.</p></li>
+  <li class="fit-row"><div class="fit-top"><span class="sgn sq">?</span>
+  <span class="fit-name">Project size (soft signal)</span><span class="fit-pts">5/10</span></div>
+  <div class="bar"><i style="width:50%"></i></div><p>Unknown: no stated value, so size is neutral (your evidence: $0.25M–$5.00M (sample profile for the demo)).</p></li>
+ </ul>
+ <h3 class="sec-h">Eligibility (separate from the score)</h3>
+ <ul class="unk"></ul>
+ <p class="small" style="margin:10px 0 0">Scored by fixed rules (fit-v0.1 (2026-11-02, proposal; locked after the discovery calls, register row 92)). AI does not set the score. Size is a soft signal only and never hides a project.</p>
+</section>
+
+<div class="grid2 g-end">
+<section class="card" aria-labelledby="ws">
+ <h2 id="ws">Watched sections <span class="hint">· B18</span></h2>
+ <p style="margin:0 0 6px"><span class="chip green watch-chip">Electrical</span></p>
+ <p class="small" style="margin:0 0 10px">Default: the trades in your profile. Change it any time. Changes in these sections are shown in depth; always-report items (closing, bid form, bonding/insurance, schedule, approved manufacturers, site meetings, scope-wide changes) are shown in depth for everyone.</p>
+ <h3 class="sec-h">Your relationship note <span class="small">(B5)</span></h3>
+ <div class="note-field"><span class="lock">🔒 private to Demo Electric</span><br>Only you can write this note: your view of the GC–owner relationship and your own relationship with the GC. It is never AI-written and never used for anyone else.</div>
+</section>
+<section class="card" aria-labelledby="rd">
+ <h2 id="rd">Evidence coverage <span class="hint">· B17</span></h2>
+ <div class="kv">
+  <div>Read</div><div>1 files · 1 of 1 pages have a text layer</div>
+<div>Notice</div><div>CanadaBuys notice · 1 pp<br><span class="mono">sha256 3d03addbfa1ded344377d93d1d6524cbda8df8540b250d726c3109a5c193d3d3</span></div>
+  <div>Quote check</div><div>1 of 1 quotes matched word-for-word (100%); 1 hand-entered notice fact(s) shown with their source</div>
+  <div>Method</div><div>Local text extraction (poppler-pdftotext-layout (pdftotext version 25.03.0)); deterministic rules; no AI.</div>
+ </div>
+</section>
+</div>
+</main>
+
+<footer>
+<p>Prepared for Demo Electric from public tender documents. No personal contact details are shown. The score and recommendation are decision aids, not advice. Confirm everything against the official tender and any later addenda.</p>
+<p>Market Scanner · brief-v1.0 · msbrief 0.1.0 · Tue Nov 3, 2026, 7:44 AM CST</p>
+</footer>
+</body></html>

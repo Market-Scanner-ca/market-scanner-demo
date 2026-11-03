@@ -1,0 +1,23 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>Folder watch sample · Market Scanner</title>
+<style>body{font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif;color:#1b2733;margin:0}
+.in{max-width:860px;margin:0 auto;padding:0 18px} header{background:#0f3b6e;color:#fff;padding:22px 0}
+header a{color:#fff} h1{margin:0 0 6px} .card{border:1px solid #d5dde5;border-radius:12px;padding:16px 18px;margin:16px 0}
+.card h2{margin:0 0 6px;font-size:19px} .small{font-size:13px;color:#566} a{color:#1d4f91}
+pre{background:#f4f6f8;border-radius:8px;padding:10px;overflow:auto;font-size:13px} .pill{display:inline-block;background:#e8eef6;border-radius:99px;padding:1px 9px;font-size:12px;margin-right:4px}
+</style></head><body><header><div class="in"><h1>Market Scanner</h1><div>Folder watch sample</div></div></header><main class="in"><p><a href="index.html">← Demo home</a></p><div class="card"><h2>Folder watch: sample run</h2>
+<p>A contractor shares a Dropbox or Google Drive folder link for a project. Market Scanner lists it (names, sizes and dates only,
+no downloads), keeps a snapshot, and reports what changed and any new addenda. This sample uses a synthetic test folder.</p>
+<h3>1. First check</h3><pre>[sample] dropbox · ok · 2026-11-03T07:44:32-06:00
+  4 files in 1 folders, 1,100,000 bytes; 1 addendum-like by name
+  First snapshot stored; changes are reported from the next check.
+    NEW ADDENDUM: /Specs/TST-100_Addendum_1.pdf</pre><h3>2. Next check: a new addendum and a changed spec section</h3><pre>[sample] dropbox · ok · 2026-11-03T07:44:32-06:00
+  5 files in 1 folders, 1,149,411 bytes; 2 addendum-like by name
+  Since last check: 1 new, 1 changed, 0 removed, 1 new addenda
+    NEW ADDENDUM: /Specs/TST-100 Addendum 2.pdf
+    new: /Specs/TST-100 Addendum 2.pdf
+    changed: /Specs/Section 26 05 00.pdf</pre>
+<h3>3. The contractor's link stops working</h3><pre>[sample] dropbox · expired · 2026-11-03T07:44:32-06:00
+  link expired - ask the contractor for a fresh link (Dropbox shows &#x27;Link Expired&#x27;)</pre></div></main>
+<footer class="in small"><p>Demo built Nov 3, 2026, 7:44 AM CST from public tenders only. No client data. Contains information licensed under the
+<a href="https://open.canada.ca/en/open-government-licence-canada">Open Government Licence – Canada</a>.</p></footer></body></html>
